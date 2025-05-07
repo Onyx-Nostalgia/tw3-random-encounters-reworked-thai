@@ -1,7 +1,22 @@
-# tw3-random-encounters-reworked-thai
-
 <div align="center">
-  <b>English</b> | <a href="/docs/README-TH.md">ไทย</a>
+
+# The Witcher 3 mod Random Encounters Reworked - Thai version
+
+![img](/docs/images/292030_8.jpg)
+
+<details> <summary>More Images</summary>
+
+![img](/docs/images/292030_13.jpg)
+![img](/docs/images/292030_4.jpg)
+![img](/docs/images/292030_5.jpg)
+![img](/docs/images/292030_6.jpg)
+![img](/docs/images/292030_14.jpg)
+![img](/docs/images/292030_19.jpg)
+
+</details>
+
+<b>English</b> | <a href="/docs/README-TH.md">ไทย</a>
+
 </div>
 
 -----------
@@ -24,11 +39,11 @@ Original Mod: [Random Encounters Reworked](https://www.nexusmods.com/witcher3/mo
 
 ## Prerequisites
 - You must have the original [Random Encounters Reworked (Next Gen)](https://www.nexusmods.com/witcher3/mods/5018) mod by Aelto installed.
-  - Original mod's GitHub: [https://github.com/Aelto/tw3-random-encounters-reworked](https://github.com/Aelto/tw3-random-encounters-reworked)
+  - Original mod's GitHub: [GitHub](https://github.com/Aelto/tw3-random-encounters-reworked)
 
-## Installation Instructions
+## Installation
 
-1.  Download the latest release of this Thai translation mod. The downloaded package should contain:
+1.  [Download HERE](https://github.com/Onyx-Nostalgia/tw3-random-encounters-reworked-thai/releases/latest/download/tw3-random-encounters-reworked-thai-1.0.0.zip) the latest release of this Thai translation mod. The downloaded package should contain:
     *   A folder named `mod0RandomEncountersReworked_TH`
     *   A folder structure: `modRemoteEncountersReworked/content/scripts` (these are patched script files)
 2.  Place the `mod0RandomEncountersReworked_TH` folder into your The Witcher 3 `mods` directory.
