@@ -6,14 +6,34 @@
 
 -----------
 
-the Witcher 3 mod random encounters reworked thai version
+The Witcher 3 mod Random Encounters Reworked - Thai version.
 
-(Original) MOD random encounters reworked | [Nexus](https://www.nexusmods.com/witcher3/mods/5018) ([Github](https://github.com/Aelto/tw3-random-encounters-reworked))
+This mod provides Thai localization for the [Random Encounters Reworked](https://www.nexusmods.com/witcher3/mods/5018) mod.
 
-**Update 07, May 2025**
-- Fixed hard-coded text in the Surrounding Ecosystem section of the Random Encounters Reworked mod.
-- Added Thai translation for the Surrounding Ecosystem section of the Random Encounters Reworked mod.
+Original Mod: [Random Encounters Reworked](https://www.nexusmods.com/witcher3/mods/5018) by Aelto ([GitHub](https://github.com/Aelto/tw3-random-encounters-reworked))
 
-**Initial Release**
-- Translated the Random Encounters Reworked mod to Thai, keeping the settings menu text in English.
+## Features / Changelog
 
+**Latest Update:**
+- Fixed hardcoded text in the "Surrounding Ecosystem" feature of the Random Encounters Reworked mod.
+- Added Thai translation for the "Surrounding Ecosystem" feature.
+
+**Initial Release:**
+- Provided Thai translation for the Random Encounters Reworked mod.
+- Settings menu text remains in English for compatibility and clarity.
+
+## Prerequisites
+- You must have the original [Random Encounters Reworked (Next Gen)](https://www.nexusmods.com/witcher3/mods/5018) mod by Aelto installed.
+  - Original mod's GitHub: [https://github.com/Aelto/tw3-random-encounters-reworked](https://github.com/Aelto/tw3-random-encounters-reworked)
+
+## Installation Instructions
+
+1.  Download the latest release of this Thai translation mod. The downloaded package should contain:
+    *   A folder named `mod0RandomEncountersReworked_TH`
+    *   A folder structure: `modRemoteEncountersReworked/content/scripts` (these are patched script files)
+2.  Place the `mod0RandomEncountersReworked_TH` folder into your The Witcher 3 `mods` directory.
+    *   Example path: `C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\mods`
+3.  Take the `modRemoteEncountersReworked/content/scripts` folder (which you obtained in step 1 from this mod's download) and use its contents to **overwrite** the existing files in the `mods\modRemoteEncountersReworked\content\scripts` directory. This directory is part of your original Random Encounters Reworked mod installation.
+    *   Example path to overwrite: `C:\Program Files (x86)\Steam\steamapps\common\The Witcher 3\mods\modRemoteEncountersReworked\content\scripts`
+4.  Launch The Witcher 3.
+5.  Change the language to **"ไทย (เต็มรูปแบบ)"**
