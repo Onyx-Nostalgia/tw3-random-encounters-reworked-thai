@@ -9353,8 +9353,7 @@ statemachine class RER_BountyMasterManager {
     if (!theGame.GetInGameConfigWrapper().GetVarValue('RERoptionalFeatures', 'RERonelinersBountyMaster')) {
       return ;
     }
-    
-    this.oneliner = RER_onelinerEntity("<img src='img://icons/quests/treasurehunt.png' vspace='-24' /> Bounty Master", this.bounty_master_entity);
+    this.oneliner = RER_onelinerEntity("<img src='img://icons/quests/treasurehunt.png' vspace='-24' /> "+GetLocStringByKey("rer_mappin_bounty_master_title"), this.bounty_master_entity);
   }
   
   public function getBountyMasterValidPositions(): array<Vector> {
