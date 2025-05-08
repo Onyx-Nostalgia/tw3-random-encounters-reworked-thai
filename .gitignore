@@ -1,0 +1,17 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Config files (if user-specific)
+# config.json
+
+# Build artifacts
+dist/
+build/
+*.spec
