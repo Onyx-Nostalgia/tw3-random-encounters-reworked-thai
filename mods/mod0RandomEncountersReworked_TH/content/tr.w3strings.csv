@@ -52,42 +52,42 @@
 ;
 ;
 2115018001|        |preset_value_rer_defaults|Defaults
-2115018002|        |option_rer_custom_frequency_low_day|<font color="#ffd33d">                       Day:</font> minimum delay (in seconds)
-2115018003|        |option_rer_custom_frequency_high_day|<font color="#ffd33d">                             :</font> maximum delay (in seconds)
-2115018004|        |option_rer_custom_frequency_low_night|<font color="#b392f0">                    Night:</font> minimum delay (in seconds)
-2115018005|        |option_rer_custom_frequency_hight_night|<font color="#b392f0">                             :</font> maximum delay (in seconds)
-2115018006|        |preset_value_rer_low|Low
-2115018007|        |preset_value_rer_medium|Medium
-2115018008|        |preset_value_rer_high|High
+2115018002|        |option_rer_custom_frequency_low_day|<font color="#ffd33d">                       กลางวัน:</font> delay ต่ำสุด (วินาที)
+2115018003|        |option_rer_custom_frequency_high_day|<font color="#ffd33d">                                  :</font> delay สูงสุด (วินาที)
+2115018004|        |option_rer_custom_frequency_low_night|<font color="#b392f0">                    กลางคืน:</font> delay ต่ำสุด (วินาที)
+2115018005|        |option_rer_custom_frequency_hight_night|<font color="#b392f0">                                  :</font> delay สูงสุด (วินาที)
+2115018006|        |preset_value_rer_low|ต่ำ
+2115018007|        |preset_value_rer_medium|ปานกลาง
+2115018008|        |preset_value_rer_high|สูง
 2115018009|        |panel_Mods|Mods
 2115018010|        |panel_rer_name|Random Encounters Reworked
-2115018011|        |panel_rer_main_settings|Main settings
-2115018012|        |option_rer_city_spawn|Enable settlement spawns
-2115018013|        |preset_value_rer_select_yes|Yes
-2115018014|        |preset_value_rer_select_no|No
-2115018015|        |option_rer_difficulty|Encounters difficulty (affects mostly enemy count)
-2115018016|        |preset_value_rer_easy|Easy
-2115018017|        |preset_value_rer_medium|Medium
-2115018018|        |preset_value_rer_hard|Hard
-2115018019|        |preset_value_rer_random|Random
-2115018020|        |option_rer_enemy_count_multiplier|<font color="#ffd33d">Global multiplier</font>
-2115018021|        |option_rer_monster_hunt_ratio_day|<font color="#ffd33d">Frequency</font>
-2115018022|        |panel_rer_encounter_type|Encounter types
-2115018023|        |panel_rer_creature_frequency|Creatures frequencies
-2115018024|        |panel_rer_creatures_ratios|Creatures ratios
-2115018025|        |panel_ambush_day_settings|Ambush Day
-2115018026|        |panel_ambush_night_settings|Ambush Night
-2115018027|        |preset_value_rer_everything_off|Everything OFF
-2115018028|        |preset_value_rer_everything_on|Everything ON
+2115018011|        |panel_rer_main_settings|การตั้งค่าหลัก
+2115018012|        |option_rer_city_spawn|การปรากฏตัวในชุมชน
+2115018013|        |preset_value_rer_select_yes|เปิด
+2115018014|        |preset_value_rer_select_no|ปิด
+2115018015|        |option_rer_difficulty|ความยากในการเผชิญหน้า (มีผลต่อจำนวนศัตรู)
+2115018016|        |preset_value_rer_easy|ง่าย
+2115018017|        |preset_value_rer_medium|ปานกลาง
+2115018018|        |preset_value_rer_hard|ยาก
+2115018019|        |preset_value_rer_random|สุ่ม
+2115018020|        |option_rer_enemy_count_multiplier|<font color="#ffd33d">จำนวน (เท่าตัว)</font>
+2115018021|        |option_rer_monster_hunt_ratio_day|<font color="#ffd33d">ความถี่</font>
+2115018022|        |panel_rer_encounter_type|ประเภทการเผชิญหน้า
+2115018023|        |panel_rer_creature_frequency|ความถี่ของสิ่งมีชีวิต
+2115018024|        |panel_rer_creatures_ratios|อัตราส่วนของสิ่งมีชีวิต
+2115018025|        |panel_ambush_day_settings|การซุ่มโจมตี กลางวัน
+2115018026|        |panel_ambush_night_settings|การซุ่มโจมตี กลางคืน
+2115018027|        |preset_value_rer_everything_off|ปิดทั้งหมด
+2115018028|        |preset_value_rer_everything_on|เปิดทั้งหมด
 2115018029|        |option_rer_leshen|Leshens
-2115018030|        |option_rer_werewolf|Werewolves
+2115018030|        |option_rer_werewolf|มนุษย์หมาป่า
 2115018031|        |option_rer_cyclop|Cyclops
 2115018032|        |option_rer_arachas|Arachas
 2115018033|        |option_rer_fiend|Fiends
 2115018034|        |option_rer_chort|Chorts
-2115018035|        |option_rer_vampire|Vampires
-2115018036|        |option_rer_bear|Bears
-2115018037|        |option_rer_skelligebear|Skellige Bears
+2115018035|        |option_rer_vampire|แวมไพร์
+2115018036|        |option_rer_bear|หมี
+2115018037|        |option_rer_skelligebear|หมี Skellige
 2115018038|        |option_rer_golem|Golems
 2115018039|        |option_rer_elemental|Elementals
 2115018040|        |option_rer_nightwraith|NightWraiths
@@ -96,35 +96,35 @@
 2115018043|        |option_rer_skelligetroll|Skellige Trolls
 2115018044|        |option_rer_hag|Hags
 2115018045|        |option_rer_harpy|Harpies
-2115018046|        |option_rer_fogling|Foglings
+2115018046|        |option_rer_fogling|Foglets
 2115018047|        |option_rer_endrega|Endregas
 2115018048|        |option_rer_ghoul|Ghouls
 2115018049|        |option_rer_alghoul|Alghouls
 2115018050|        |option_rer_nekker|Nekkers
 2115018051|        |option_rer_drowner|Drowners
 2115018052|        |option_rer_rotfiend|Rotfiends
-2115018053|        |option_rer_wolf|Wolves
-2115018054|        |option_rer_skelligewolf|Skellige Wolves
+2115018053|        |option_rer_wolf|หมาป่า
+2115018054|        |option_rer_skelligewolf|หมาป่า Skellige
 2115018055|        |option_rer_wraith|Wraiths
-2115018056|        |option_rer_spider|Spiders
-2115018057|        |option_rer_boar|Boars
-2115018058|        |option_rer_higher_vampire|Higher Vampires
+2115018056|        |option_rer_spider|แมงมุม
+2115018057|        |option_rer_boar|หมูป่า
+2115018058|        |option_rer_higher_vampire|แวมไพร์ชั้นสูง
 2115018059|        |option_rer_bruxa|Bruxaes
 2115018060|        |option_rer_fleder|Fleders
 2115018061|        |option_rer_garkain|Garkains
 2115018062|        |option_rer_scurver|Scurvers
-2115018063|        |option_rer_giant|Giants
-2115018064|        |option_rer_skeleton|Skeletons
+2115018063|        |option_rer_giant|ยักษ์
+2115018064|        |option_rer_skeleton|โครงกระดูก
 2115018065|        |option_rer_barghest|Barghests
 2115018066|        |option_rer_echinops|Echinops
 2115018067|        |option_rer_centipede|Centipedes
 2115018068|        |option_rer_kikimore|Kikimores
-2115018069|        |option_rer_panther|Panthers
+2115018069|        |option_rer_panther|เสือดำ
 2115018070|        |option_rer_shaelmaar|Shaelmaars
 2115018071|        |option_rer_wight|Wights
 2115018072|        |option_rer_human|โจร
 2115018073|        |option_rer_wildhunt|Wild Hunts
-2115018074|        |option_rer_gryphon|Gryphons
+2115018074|        |option_rer_gryphon|Griffins
 2115018075|        |option_rer_cockatrice|Cockatrices
 2115018076|        |option_rer_wyvern|Wyverns
 2115018077|        |option_rer_forktail|Forktails
@@ -135,187 +135,187 @@
 2115018082|        |option_rer_berserker|Berserkers
 2115018083|        |option_rer_dracolizard|Slyzards
 2115018084|        |option_rer_gargoyle|Gargoyles
-2115018085|        |preset_Mods_rer_name_rer_main_settings|Main settings
-2115018086|        |preset_Mods_rer_name_rer_creature_frequency|Creatures frequencies
-2115018087|        |preset_Mods_rer_name_rer_encounters_settings_ratios_and_frequencies_ambush_day_settings|Ambush Day
-2115018088|        |preset_Mods_rer_name_rer_encounters_settings_ratios_and_frequencies_ambush_night_settings|Ambush Night
-2115018089|        |option_rer_geralt_comments|Enable Geralt comments
-2115018090|        |option_rer_enabled|<font color="#28a745">MOD ENABLED</font>
-2115018091|        |option_rer_hide_notifications|Hide RER notifications
-2115018092|        |option_rer_enable_encounters_loot|Enable encounters loot
-2115018093|        |preset_Mods_rer_name_rer_city_spawns|Settlement spawns
-2115018094|        |preset_value_rer_no_city_spawns|Allow none
-2115018095|        |preset_value_rer_all_city_spawns|Allow all
-2115018096|        |preset_value_rer_no_large_creatures|No large creatures
-2115018097|        |preset_value_rer_no_small_creatures|No small creatures
+2115018085|        |preset_Mods_rer_name_rer_main_settings|การตั้งค่าหลัก
+2115018086|        |preset_Mods_rer_name_rer_creature_frequency|ความถี่ของสิ่งมีชีวิต
+2115018087|        |preset_Mods_rer_name_rer_encounters_settings_ratios_and_frequencies_ambush_day_settings|ซุ่มโจมตี กลางวัน
+2115018088|        |preset_Mods_rer_name_rer_encounters_settings_ratios_and_frequencies_ambush_night_settings|ซุ่มโจมตี กลางคืน
+2115018089|        |option_rer_geralt_comments|เสียงพากย์ของ Geralt
+2115018090|        |option_rer_enabled|<font color="#28a745">เปิดใช้งาน MOD</font>
+2115018091|        |option_rer_hide_notifications|ซ่อนการแจ้งเตือน RER
+2115018092|        |option_rer_enable_encounters_loot|ของ Drop จากการเผชิญหน้า
+2115018093|        |preset_Mods_rer_name_rer_city_spawns|การปรากฏตัวในชุมชน
+2115018094|        |preset_value_rer_no_city_spawns|ปิดทั้งหมด
+2115018095|        |preset_value_rer_all_city_spawns|เปิดทั้งหมด
+2115018096|        |preset_value_rer_no_large_creatures|ไม่มีตัวใหญ่
+2115018097|        |preset_value_rer_no_small_creatures|ไม่มีตัวเล็ก
 2115018098|        |option_rer_external_factors_coefficient|External factors coefficient
-2115018099|        |option_rer_monster_contract_ratio_day|<font color="#ffd33d">Frequency</font>
-2115018100|        |option_rer_monster_ambush_ratio_day|<font color="#ffd33d">Frequency</font>
-2115018101|        |panel_rer_settlement_settings|Settlement spawns
-2115018102|        |preset_Mods_rer_name_rer_encounter_type|Encounter types
+2115018099|        |option_rer_monster_contract_ratio_day|<font color="#ffd33d">ความถี่</font>
+2115018100|        |option_rer_monster_ambush_ratio_day|<font color="#ffd33d">ความถี่</font>
+2115018101|        |panel_rer_settlement_settings|การปรากฏตัวในชุมชน
+2115018102|        |preset_Mods_rer_name_rer_encounter_type|ประเภทการเผชิญหน้า
 2115018103|        |option_rer_mod_initialized|MOD INITIALIZED <font color="#d73a49">(CAUTION)</font>
-2115018104|        |preset_Mods_rer_name_rer_monster_trophies|Monster trophies
-2115018105|        |panel_rer_monster_trophies|Monster trophies
-2115018106|        |rer_trophy_werewolf|Werewolf trophy
-2115018107|        |rer_trophy_fogling|Foglet trophy
-2115018108|        |rer_trophy_wildhunt|WildHunt trophy
-2115018109|        |rer_trophy_beast|Beast trophy
-2115018110|        |rer_trophy_wraith|Wraith trophy
-2115018111|        |rer_trophy_nekker|Nekker trophy
-2115018112|        |rer_trophy_leshen|Leshen trophy
-2115018113|        |rer_trophy_katakan|Katakan trophy
-2115018114|        |rer_trophy_ekimmara|Ekimmara trophy
-2115018115|        |rer_trophy_harpy|Harpy trophy
-2115018116|        |rer_trophy_giant|Giant trophy
-2115018117|        |rer_trophy_sharley|Sharley trophy
-2115018118|        |rer_trophy_wight|Wight trophy
-2115018119|        |rer_trophy_grave_hag|Grave Hag trophy
-2115018120|        |rer_trophy_fiend|Fiend trophy
-2115018121|        |rer_trophy_elemental|Elemental trophy
-2115018122|        |rer_trophy_insectoid|Insectoid trophy
-2115018123|        |rer_trophy_griffin|Gryphon trophy
-2115018124|        |rer_trophy_basilisk|Basilisk trophy
-2115018125|        |rer_trophy_cockatrice|Cockatrice trophy
-2115018126|        |rer_trophy_wyvern|Wyvern trophy
-2115018127|        |rer_trophy_forktail|Forktail trophy
-2115018128|        |rer_trophy_czart|Chort trophy
-2115018129|        |rer_trophy_cyclop|Cyclop trophy
-2115018130|        |rer_trophy_noonwraith|NoonWraith trophy
-2115018131|        |rer_trophy_nightwraith|NightWraith trophy
-2115018132|        |rer_trophy_arachas|Arachas trophy
-2115018133|        |rer_trophy_garkain|Garkain trophy
-2115018134|        |rer_trophy_spirit|Specter trophy
-2115018135|        |rer_trophy_necrophage|Necrophage trophy
-2115018136|        |rer_trophy_vampire|Vampire trophy
-2115018137|        |rer_trophy_human|Human trophy
-2115018138|        |rer_trophy_troll|Troll trophy
-2115018139|        |rer_trophy_dracolizard|Dracolizard trophy
-2115018140|        |option_rer_min_spawn_distance|<font color="#ffffff">              Distance:</font> minimum spawn distance (in meters)
-2115018141|        |option_rer_spawn_diameter|<font color="#ffffff">                             :</font> spawn diameter (in meters)
-2115018142|        |option_rer_kill_threshold_distance|<font color="#ffffff">                             :</font> automatic kill threshold (in meters)
-2115018143|        |preset_Mods_rer_name_rer_advanced_settings|Advanced settings
-2115018144|        |panel_rer_advanced_settings|Advanced settings
-2115018145|        |option_rer_trophies_ambush|<font color="#ffd33d">From ambushes</font>
-2115018146|        |option_rer_trophies_hunt|<font color="#ffd33d">From hunts</font>
-2115018147|        |option_rer_trophies_contract|<font color="#ffd33d">From contracts</font>
-2115018148|        |option_rer_trophy_pickup_animation|Trophy pickup animation chance
-2115018149|        |option_rer_only_known_bestiary_creatures|Only known bestiary creatures
-2115018150|        |preset_Mods_rer_name_rer_advanced_settings_distances|Distances
-2115018151|        |panel_distances|Distances
+2115018104|        |preset_Mods_rer_name_rer_monster_trophies|หัวรางวัลสัตว์ประหลาด
+2115018105|        |panel_rer_monster_trophies|หัวรางวัลสัตว์ประหลาด
+2115018106|        |rer_trophy_werewolf|หัวรางวัล มนุษย์หมาป่า
+2115018107|        |rer_trophy_fogling|หัวรางวัล Foglet
+2115018108|        |rer_trophy_wildhunt|หัวรางวัล  Wild Hunt
+2115018109|        |rer_trophy_beast|หัวรางวัล สัตว์ป่า
+2115018110|        |rer_trophy_wraith|หัวรางวัล Wraith
+2115018111|        |rer_trophy_nekker|หัวรางวัล Nekker
+2115018112|        |rer_trophy_leshen|หัวรางวัล Leshen
+2115018113|        |rer_trophy_katakan|หัวรางวัล Katakan
+2115018114|        |rer_trophy_ekimmara|หัวรางวัล Ekimmara
+2115018115|        |rer_trophy_harpy|หัวรางวัล Harpy
+2115018116|        |rer_trophy_giant|หัวรางวัล Giant
+2115018117|        |rer_trophy_sharley|หัวรางวัล Sharley
+2115018118|        |rer_trophy_wight|หัวรางวัล Wight
+2115018119|        |rer_trophy_grave_hag|หัวรางวัล Grave Hag
+2115018120|        |rer_trophy_fiend|หัวรางวัล Fiend
+2115018121|        |rer_trophy_elemental|หัวรางวัล Elemental
+2115018122|        |rer_trophy_insectoid|หัวรางวัล Insectoid
+2115018123|        |rer_trophy_griffin|หัวรางวัล Griffin
+2115018124|        |rer_trophy_basilisk|หัวรางวัล Basilisk
+2115018125|        |rer_trophy_cockatrice|หัวรางวัล Cockatrice
+2115018126|        |rer_trophy_wyvern|หัวรางวัล Wyvern
+2115018127|        |rer_trophy_forktail|หัวรางวัล Forktail
+2115018128|        |rer_trophy_czart|หัวรางวัล Chort
+2115018129|        |rer_trophy_cyclop|หัวรางวัล Cyclop
+2115018130|        |rer_trophy_noonwraith|หัวรางวัล NoonWraith
+2115018131|        |rer_trophy_nightwraith|หัวรางวัล NightWraith
+2115018132|        |rer_trophy_arachas|หัวรางวัล Arachas
+2115018133|        |rer_trophy_garkain|หัวรางวัล Garkain
+2115018134|        |rer_trophy_spirit|หัวรางวัล Specter
+2115018135|        |rer_trophy_necrophage|หัวรางวัล Necrophage
+2115018136|        |rer_trophy_vampire|หัวรางวัล แวมไพร์
+2115018137|        |rer_trophy_human|หัวรางวัล มนุษย์
+2115018138|        |rer_trophy_troll|หัวรางวัล Troll
+2115018139|        |rer_trophy_dracolizard|หัวรางวัล Dracolizard
+2115018140|        |option_rer_min_spawn_distance|<font color="#ffffff">              ระยะ:</font> ระยะปรากฏตัวต่ำสุด (เมตร)
+2115018141|        |option_rer_spawn_diameter|<font color="#ffffff">                     :</font> เส้นผ่านศูนย์กลางการปรากฏตัว (เมตร)
+2115018142|        |option_rer_kill_threshold_distance|<font color="#ffffff">                     :</font> threshold การสังหารอัตโนมัติ (เมตร)
+2115018143|        |preset_Mods_rer_name_rer_advanced_settings|การตั้งค่าขั้นสูง
+2115018144|        |panel_rer_advanced_settings|การตั้งค่าขั้นสูง
+2115018145|        |option_rer_trophies_ambush|<font color="#ffd33d">จากการซุ่มโจมตี</font>
+2115018146|        |option_rer_trophies_hunt|<font color="#ffd33d">จากการออกล่า</font>
+2115018147|        |option_rer_trophies_contract|<font color="#ffd33d">จากสัญญาจ้าง</font>
+2115018148|        |option_rer_trophy_pickup_animation|โอกาสเกิดแอนิเมชันเก็บหัวรางวัล
+2115018149|        |option_rer_only_known_bestiary_creatures|เฉพาะสิ่งมีชีวิตในสารานุกรมสัตว์ประหลาดที่รู้จักเท่านั้น
+2115018150|        |preset_Mods_rer_name_rer_advanced_settings_distances|ระยะทาง
+2115018151|        |panel_distances|ระยะทาง
 2115018152|        |preset_Mods_rer_name_rer_advanced_settings_levels|Levels
 2115018153|        |panel_levels|Levels
-2115018154|        |option_rer_min_level_range|<font color="#28a745">                  Levels:</font> lowest allowed (relative to Geralt)
-2115018155|        |option_rer_max_level_range|<font color="#28a745">                             :</font> highest allowed (relative to Geralt)
-2115018156|        |preset_Mods_rer_name_rer_rewards_settings_rer_trophies_settings|Trophies
-2115018157|        |panel_rer_trophies_settings|Trophies
-2115018158|        |option_rer_trophy_prices|<font color="#ffd33d">Prices</font>
-2115018159|        |preset_value_rer_trophy_prices_low|Low (100%)
-2115018160|        |preset_value_rer_trophy_prices_medium|Medium (200%)
-2115018161|        |preset_value_rer_trophy_prices_high|High (300%)
+2115018154|        |option_rer_min_level_range|<font color="#28a745">                  Levels:</font> ต่ำสุด (เทียบกับ Geralt)
+2115018155|        |option_rer_max_level_range|<font color="#28a745">                             :</font> สูงสุด (เทียบกับ Geralt)
+2115018156|        |preset_Mods_rer_name_rer_rewards_settings_rer_trophies_settings|หัวรางวัล (Trophy)
+2115018157|        |panel_rer_trophies_settings|หัวรางวัล (Trophy)
+2115018158|        |option_rer_trophy_prices|<font color="#ffd33d">มูลค่า</font>
+2115018159|        |preset_value_rer_trophy_prices_low|ต่ำ (100%)
+2115018160|        |preset_value_rer_trophy_prices_medium|ปานกลาง (200%)
+2115018161|        |preset_value_rer_trophy_prices_high|สูง (300%)
 2115018162|        |preset_Mods_rer_name_rer_events_settings|Event system
 2115018163|        |panel_rer_events_settings|Event system
-2115018164|        |option_rer_event_system_interval|Event system interval in seconds (0 = disabled)
+2115018164|        |option_rer_event_system_interval|ช่วงเวลาที่เกิด (วินาที) [0 = ปิดใช้งาน]
 2115018165|        |option_rer_mod_enabled|<font color="#28a745">MOD ENABLED</font>
 2115018166|        |option_rer_disabled|RandomEncounters Reworked disabled
-2115018167|        |option_rer_event_bloodnecrophages_chance|Event % chance - blood attracts necrophages
-2115018168|        |option_rer_event_bodiesnecrophages_chance|Event % chance - remains attract necrophages
-2115018169|        |option_rer_event_entersswamp_chance|Event % chance - enters swamp ambush
-2115018170|        |option_rer_event_fightnoise_chance|Event % chance - fight noise ambush
-2115018171|        |option_rer_event_fillcreaturesgroup_chance|Event % chance - fill creatures group
-2115018172|        |option_rer_event_meditationambush_chance|Event % chance - meditation ambush
-2115018174|        |option_rer_event_system_internal_cooldown|Seconds before an event can trigger again
-2115018175|        |option_rer_event_fillcreaturesgroup_allow_combat|Event Fill creatures group - allow copy of creatures in combat
-2115018176|        |option_rer_big_city_spawns|Allow city spawns (Novigrad/Oxenfurt/Kaer Trolde)
-2115018177|        |preset_value_rer_region_constraint_none|Everywhere
-2115018178|        |preset_value_rer_region_constraint_only_velen|Only in Velen
-2115018179|        |preset_value_rer_region_constraint_only_skellige|Only in Skellige
-2115018180|        |preset_value_rer_region_constraint_only_toussaint|Only in Toussaint
-2115018181|        |preset_value_rer_region_constraint_no_velen|No Velen
-2115018182|        |preset_value_rer_region_constraint_no_skellige|No Skellige
-2115018183|        |preset_value_rer_region_constraint_no_toussaint|No Toussaint
-2115018184|        |preset_Mods_rer_name_rer_encounters_settings_rer_region_constraints_settings|Region constraints
-2115018185|        |preset_value_rer_region_constraint_only_whiteorchard|Only in White Orchard
-2115018186|        |preset_value_rer_region_constraint_no_whiteorchard|No White Orchard
-2115018187|        |panel_rer_region_constraints_settings|Region constraints
-2115018188|        |preset_Mods_rer_name_rer_encounters_settings|Creatures_settings ratios
-2115018189|        |panel_rer_creatures_ratio|Creatures ratios
-2115018190|        |panel_hunt_day_settings|Hunt Day
-2115018191|        |panel_hunt_night_settings|Hunt Night
-2115018192|        |preset_Mods_rer_name_rer_encounters_settings_ratios_and_frequencies_hunt_day_settings|Hunt Day
-2115018193|        |preset_Mods_rer_name_rer_encounters_settings_ratios_and_frequencies_hunt_night_settings|Hunt Night
-2115018194|        |panel_contract_day_settings|Contract Day
-2115018195|        |panel_contract_night_settings|Contract Night
-2115018196|        |preset_Mods_rer_name_rer_encounters_settings_ratios_and_frequencies_contract_day_settings|Contract Day
-2115018197|        |preset_Mods_rer_name_rer_encounters_settings_ratios_and_frequencies_contract_night_settings|Contract Night
-2115018198|        |preset_Mods_rer_name_rer_advanced_settings_performances|Performance settings
-2115018199|        |panel_performances|Performance settings
-2115018200|        |option_rer_foottracks_ratio|tracks ratio (100: all, 0: no tracks)
-2115018201|        |preset_value_rer_all_everywhere|Everywhere all
-2115018202|        |option_rer_camera_blending_disabled|Disable camera blending
+2115018167|        |option_rer_event_bloodnecrophages_chance|% การเกิด Event - เลือดดึงดูด necrophages
+2115018168|        |option_rer_event_bodiesnecrophages_chance|% การเกิด Event - ซากศพดึงดูด necrophages
+2115018169|        |option_rer_event_entersswamp_chance|% การเกิด Event - ซุ่มโจมตีที่หนองน้ำ
+2115018170|        |option_rer_event_fightnoise_chance|% การเกิด Event - เสียงต่อสู้ดึงดูดการซุ่มโจมตี
+2115018171|        |option_rer_event_fillcreaturesgroup_chance|% การเกิด Event - เพิ่มกลุ่มสิ่งมีชีวิต
+2115018172|        |option_rer_event_meditationambush_chance|% การเกิด Event - ซุ่มโจมตีขณะนั่งสมาธิ
+2115018174|        |option_rer_event_system_internal_cooldown|วินาทีก่อนจะเกิด Event ถัดไป
+2115018175|        |option_rer_event_fillcreaturesgroup_allow_combat|เพิ่มสิ่งมีชีวิตแบบเดียวกับที่สู้อยู่
+2115018176|        |option_rer_big_city_spawns|การปรากฏตัวในเมืองใหญ่ (Novigrad/Oxenfurt/Kaer Trolde)
+2115018177|        |preset_value_rer_region_constraint_none|ทุกที่
+2115018178|        |preset_value_rer_region_constraint_only_velen|เฉพาะใน Velen
+2115018179|        |preset_value_rer_region_constraint_only_skellige|เฉพาะใน Skellige
+2115018180|        |preset_value_rer_region_constraint_only_toussaint|เฉพาะใน Toussaint
+2115018181|        |preset_value_rer_region_constraint_no_velen|ไม่อยู่ใน Velen
+2115018182|        |preset_value_rer_region_constraint_no_skellige|ไม่อยู่ใน Skellige
+2115018183|        |preset_value_rer_region_constraint_no_toussaint|ไม่อยู่ใน Toussaint
+2115018184|        |preset_Mods_rer_name_rer_encounters_settings_rer_region_constraints_settings|การจำกัดภูมิภาค
+2115018185|        |preset_value_rer_region_constraint_only_whiteorchard|เฉพาะใน White Orchard
+2115018186|        |preset_value_rer_region_constraint_no_whiteorchard|ไม่อยู่ใน White Orchard
+2115018187|        |panel_rer_region_constraints_settings|การจำกัดภูมิภาค
+2115018188|        |preset_Mods_rer_name_rer_encounters_settings|อัตราส่วนการตั้งค่าสิ่งมีชีวิต
+2115018189|        |panel_rer_creatures_ratio|อัตราส่วนของสิ่งมีชีวิต
+2115018190|        |panel_hunt_day_settings|การออกล่า กลางวัน
+2115018191|        |panel_hunt_night_settings|การออกล่า กลางคืน
+2115018192|        |preset_Mods_rer_name_rer_encounters_settings_ratios_and_frequencies_hunt_day_settings|การออกล่า กลางวัน
+2115018193|        |preset_Mods_rer_name_rer_encounters_settings_ratios_and_frequencies_hunt_night_settings|การออกล่า กลางคืน
+2115018194|        |panel_contract_day_settings|สัญญาจ้าง กลางวัน
+2115018195|        |panel_contract_night_settings|สัญญาจ้าง กลางคืน
+2115018196|        |preset_Mods_rer_name_rer_encounters_settings_ratios_and_frequencies_contract_day_settings|สัญญาจ้าง กลางวัน
+2115018197|        |preset_Mods_rer_name_rer_encounters_settings_ratios_and_frequencies_contract_night_settings|สัญญาจ้าง กลางคืน
+2115018198|        |preset_Mods_rer_name_rer_advanced_settings_performances|ประสิทธิภาพ
+2115018199|        |panel_performances|ประสิทธิภาพ
+2115018200|        |option_rer_foottracks_ratio|อัตราส่วนร่องรอย [100: ทั้งหมด, 0: ไม่มีร่องรอย]
+2115018201|        |preset_value_rer_all_everywhere|ทุกที่ทั้งหมด
+2115018202|        |option_rer_camera_blending_disabled|ปิดการใช้งาน camera blending
 2115018203|        |option_dlc_rer|Random Encounters Reworked
-2115018204|        |option_rer_camera_scenes_disabled|Disable camera scenes
-2115018205|        |option_rer_monster_ambush_ratio_night|<font color="#ffd33d">Frequency</font>
-2115018206|        |option_rer_monster_hunt_ratio_night|<font color="#ffd33d">Frequency</font>
-2115018207|        |option_rer_monster_contract_ratio_night|<font color="#ffd33d">Frequency</font>
-2115018208|        |option_rer_enable_action_camera_scenes|Enable action camera scenes
-2115018209|        |preset_Mods_rer_name_rer_encounters_settings|Encounter system
-2115018210|        |preset_Mods_rer_name_rer_encounters_settings_rer_general_settings|General
-2115018211|        |preset_Mods_rer_name_rer_encounters_settings_rer_constraints_settings|Region constraints
-2115018212|        |preset_Mods_rer_name_rer_encounters_settings_rer_settlement_settings|Settlement spawns
-2115018213|        |panel_rer_general_settings|General
+2115018204|        |option_rer_camera_scenes_disabled|ปิดการใช้งาน camera scenes
+2115018205|        |option_rer_monster_ambush_ratio_night|<font color="#ffd33d">ความถี่</font>
+2115018206|        |option_rer_monster_hunt_ratio_night|<font color="#ffd33d">ความถี่</font>
+2115018207|        |option_rer_monster_contract_ratio_night|<font color="#ffd33d">ความถี่</font>
+2115018208|        |option_rer_enable_action_camera_scenes|ใช้งาน action camera scenes
+2115018209|        |preset_Mods_rer_name_rer_encounters_settings|การเผชิญหน้า
+2115018210|        |preset_Mods_rer_name_rer_encounters_settings_rer_general_settings|ทั่วไป
+2115018211|        |preset_Mods_rer_name_rer_encounters_settings_rer_constraints_settings|การจำกัดภูมิภาค
+2115018212|        |preset_Mods_rer_name_rer_encounters_settings_rer_settlement_settings|การปรากฏตัวในชุมชน
+2115018213|        |panel_rer_general_settings|ทั่วไป
 2115018214|        |panel_rer_optional_features_settings|Optional features
-2115018215|        |panel_rer_encounters_settings|Encounter system
+2115018215|        |panel_rer_encounters_settings|การเผชิญหน้า
 2115018216|        |preset_Mods_rer_name_rer_optional_features_settings|Optional features
-2115018217|        |option_rer_monster_contract_longevity|UNUSED
+2115018217|        |option_rer_monster_contract_longevity|ไม่ใช้
 2115018218|        |panel_creature_type_multiplier|Creature type multiplier
 2115018219|        |preset_Mods_rer_name_rer_encounters_settings_creature_type_multiplier|Creature type multiplier
-2115018220|        |option_rer_crowns_ambush|<font color="#ffd33d">From ambushes</font>
-2115018221|        |option_rer_crowns_hunt|<font color="#ffd33d">From hunts</font>
-2115018222|        |option_rer_crowns_contract|<font color="#ffd33d">From contracts</font>
-2115018224|        |preset_Mods_rer_name_rer_rewards_settings|Reward system
-2115018225|        |panel_rer_rewards_settings|Reward system
-2115018226|        |preset_Mods_rer_name_rer_rewards_settings_rer_crowns_settings|Crowns
-2115018227|        |panel_rer_crowns_settings|Crowns
-2115018228|        |option_rer_trails_use_pathfinding|Use path finding for trails
-2115018229|        |option_rer_static_encounter_small_spawn_chance|<font color="#ec6cb9">Static encounters:</font> small - spawning chance (%)
-2115018230|        |option_rer_static_encounter_large_spawn_chance|<font color="#ec6cb9">                             :</font> large - spawning chance (%)
-2115018231|        |option_rer_camera_immersive_camera_compatibility|No camera scene on horse (ImmersiveCamera compatibility)
-2115018232|        |panel_rer_ecosystem_settings|Ecosystem system
-2115018233|        |preset_Mods_rer_name_rer_ecosystem_settings|Ecosystem system
-2115018234|        |option_rer_ecosystem_community_power_effect|Community diversity (higher = less, lower = more)
-2115018235|        |option_rer_ecosystem_community_natural_death_speed|Community natural death speed
-2115018236|        |option_rer_ecosystem_community_power_spread|community power spread
-2115018237|        |option_rer_crowns_hunting_ground|<font color="#ffd33d">From hunting grounds</font>
-2115018238|        |panel_hunting_ground_day_settings|Hunting ground Day
-2115018239|        |panel_hunting_ground_night_settings|Hunting ground Night
-2115018240|        |preset_Mods_rer_name_rer_encounters_settings_ratios_and_frequencies_hunting_ground_day_settings|Hunting Ground Day
-2115018241|        |preset_Mods_rer_name_rer_encounters_settings_ratios_and_frequencies_hunting_ground_night_settings|Hunting Ground Night
-2115018242|        |option_rer_monster_hunting_ground_ratio_night|<font color="#ffd33d">Frequency</font>
-2115018243|        |option_rer_monster_hunting_ground_ratio_day|<font color="#ffd33d">Frequency</font>
-2115018244|        |preset_Mods_rer_name_ratios_and_frequencies|Ratios & Frequencies
-2115018245|        |panel_ratios_and_frequencies|Ratios & Frequencies
-2115018246|        |option_rer_trophies_hunting_ground|<font color="#ffd33d">From hunting grounds</font>
-2115018247|        |option_rer_markers_contract_first_phase|Markers - contract first phase
-2115018248|        |option_rer_markers_contract_intermediary_phase|Markers - contract intermediary phase
-2115018249|        |option_rer_markers_bounty_hunting|Markers - bounty hunting
-2115018250|        |option_rer_markers_challenge_mode|Markers - challenge mode
+2115018220|        |option_rer_crowns_ambush|<font color="#ffd33d">จากการซุ่มโจมตี</font>
+2115018221|        |option_rer_crowns_hunt|<font color="#ffd33d">จากการออกล่า</font>
+2115018222|        |option_rer_crowns_contract|<font color="#ffd33d">จากสัญญาจ้าง</font>
+2115018224|        |preset_Mods_rer_name_rer_rewards_settings|ระบบรางวัล
+2115018225|        |panel_rer_rewards_settings|ระบบรางวัล
+2115018226|        |preset_Mods_rer_name_rer_rewards_settings_rer_crowns_settings|เงินรางวัล (Crowns)
+2115018227|        |panel_rer_crowns_settings|เงินรางวัล (Crowns)
+2115018228|        |option_rer_trails_use_pathfinding|ใช้การสำรวจหาร่องรอย
+2115018229|        |option_rer_static_encounter_small_spawn_chance|<font color="#ec6cb9">การเผชิญหน้าแบบคงที่:</font> กลุ่มเล็ก - โอกาสปรากฏตัว (%)
+2115018230|        |option_rer_static_encounter_large_spawn_chance|<font color="#ec6cb9">                             :</font> กลุ่มใหญ่ - โอกาสปรากฏตัว (%)
+2115018231|        |option_rer_camera_immersive_camera_compatibility|ไม่มี camera scene บนหลังม้า <font size="15">(ใช้ร่วมกับ ImmersiveCamera)</font>
+2115018232|        |panel_rer_ecosystem_settings|ระบบนิเวศ
+2115018233|        |preset_Mods_rer_name_rer_ecosystem_settings|ระบบนิเวศ
+2115018234|        |option_rer_ecosystem_community_power_effect|ความหลากหลาย [สูง = น้อยลง, ต่ำ = มากขึ้น]
+2115018235|        |option_rer_ecosystem_community_natural_death_speed|อัตราการตายตามธรรมชาติ
+2115018236|        |option_rer_ecosystem_community_power_spread|การกระจายอำนาจของกลุ่มสิ่งมีชีวิต <font size="15">(community power spread)</font>
+2115018237|        |option_rer_crowns_hunting_ground|<font color="#ffd33d">จากพื้นที่ออกล่า</font>
+2115018238|        |panel_hunting_ground_day_settings|พื้นที่ออกล่า กลางวัน
+2115018239|        |panel_hunting_ground_night_settings|พื้นที่ออกล่า กลางคืน
+2115018240|        |preset_Mods_rer_name_rer_encounters_settings_ratios_and_frequencies_hunting_ground_day_settings|พื้นที่ออกล่า กลางวัน
+2115018241|        |preset_Mods_rer_name_rer_encounters_settings_ratios_and_frequencies_hunting_ground_night_settings|พื้นที่ออกล่า กลางคืน
+2115018242|        |option_rer_monster_hunting_ground_ratio_night|<font color="#ffd33d">ความถี่</font>
+2115018243|        |option_rer_monster_hunting_ground_ratio_day|<font color="#ffd33d">ความถี่</font>
+2115018244|        |preset_Mods_rer_name_ratios_and_frequencies|อัตราส่วนและความถี่
+2115018245|        |panel_ratios_and_frequencies|อัตราส่วนและความถี่
+2115018246|        |option_rer_trophies_hunting_ground|<font color="#ffd33d">จากพื้นที่ออกล่า</font>
+2115018247|        |option_rer_markers_contract_first_phase|Markers - สัญญาจ้างระยะแรก
+2115018248|        |option_rer_markers_contract_intermediary_phase|Markers - สัญญาจ้างระยะกลาง
+2115018249|        |option_rer_markers_bounty_hunting|Markers - งานล่าค่าหัว
+2115018250|        |option_rer_markers_challenge_mode|Markers - โหมดท้าทาย
 2115018251|        |preset_Mods_rer_name_rer_tutorials_settings|Tutorials
 2115018252|        |panel_rer_tutorials_settings|Tutorials
-2115018253|        |option_rer_tutorial_challenge_mode|Challenge mode
-2115018254|        |option_rer_tutorial_bounty_hunting|Bounty hunting
-2115018255|        |option_rer_tutorial_monster_contract|Monster contract
-2115018256|        |option_rer_tutorial_noticeboard_event|Noticeboard event
-2115018257|        |option_rer_tutorial_clue_examined|Clue examined
-2115018258|        |option_rer_tutorial_ambushed|Geralt ambushed
-2115018259|        |option_rer_tutorial_trophy|The rewards
-2115018260|        |option_rer_tutorial_ecosystem|The ecosystem
+2115018253|        |option_rer_tutorial_challenge_mode|โหมดท้าทาย
+2115018254|        |option_rer_tutorial_bounty_hunting|งานล่าค่าหัว
+2115018255|        |option_rer_tutorial_monster_contract|สัญญาจ้างล่าสัตว์ประหลาด
+2115018256|        |option_rer_tutorial_noticeboard_event|เหตุการณ์กระดานประกาศ
+2115018257|        |option_rer_tutorial_clue_examined|การแกะรอย
+2115018258|        |option_rer_tutorial_ambushed|Geralt ถูกซุ่มโจมตี
+2115018259|        |option_rer_tutorial_trophy|รางวัล
+2115018260|        |option_rer_tutorial_ecosystem|ระบบนิเวศ
 2115018261|        |panel_hud_dialogue_title_bet_rer|Bounty seed selector
-2115018262|        |option_rer_trophy_master_buying_price|Trophy buying price from bounty master (%)
-2115018263|        |rer_bounty_notice|Bounty notice
+2115018262|        |option_rer_trophy_master_buying_price|ราคาซื้อหัวรางวัลจากนายหน้าค่าหัว (%)
+2115018263|        |rer_bounty_notice|ใบประกาศล่าค่าหัว
 2115018264|        |rer_bounty_notice_description|นายหน้าค่าหัวกำลังมองหาวิทเชอร์ เนื่องจากมีอสูรกายที่ต้องกำจัด ไปพบเขาเพื่อเริ่มรับงานล่าค่าหัวและขายหัวรางวัลของคุณ
 2115018265|        |item_desc_trophy|หัวของสัตว์ประหลาด นายหน้าค่าหัวอาจจะรับซื้อไปในราคาที่ดีกว่า
-2115018266|        |option_rer_ignore_seed_selector_window|Skip bounty seed selector window
-2115018267|        |option_rer_delay_loading_start|Delay RER loading start (Bootstrap Hooked compatibility)
+2115018266|        |option_rer_ignore_seed_selector_window|ข้ามหน้าต่าง Bounty seed selector
+2115018267|        |option_rer_delay_loading_start|Delay เริ่มโหลด RER (ใช้งานร่วมกับ Bootstrap Hooked)
 2115018268|        |rer_tutorial_ambush_title|RER Tutorial - ซุ่มโจมตี (Ambushed)
 2115018269|        |rer_tutorial_ambush_body|คุณเพิ่งโดน<font color="#CD7D03">ซุ่มโจมตี (ambushed)</font> ตอนนี้ศัตรูกำลังเคลื่อนเข้ามาหา และคุณต้องต่อสู้กับพวกมัน คุณสามารถวิ่งหนีได้ แต่พวกมันจะตามคุณไปจนกว่าคุณจะเอาชนะพวกมันได้ เมื่อทำได้ คุณจะได้รับรางวัลเป็นเงิน (crowns) และหัวรางวัล (trophy) หากคุณไม่ชอบการซุ่มโจมตี หรือต้องการปรับให้มันท้าทายมากขึ้นหรือน้อยลง คุณสามารถเปลี่ยนได้ที่การตั้งค่า (settings) ในเมนูย่อย Ambush (ในเมนู Encounter System).
 2115018270|        |rer_tutorial_bounty_title|RER Tutorial - งานล่าค่าหัว (Bounty hunting)
@@ -330,9 +330,9 @@
 2115018279|        |rer_tutorial_noticeboard_event_body|คุณได้เลือก<font color="#CD7D03">ใบประกาศว่าจ้าง (contract notice)</font> จากม็อด Random Encounters Reworked เมื่อคุณปิดหน้าต่างนี้ คุณจะเห็นตัวเลือกบทสนทนาเพื่อเลือกความยากของสัญญาจ้าง รวมถึงข้อมูลเกี่ยวกับกระดานประกาศ (noticeboard) รางวัลเหล่านี้จะแตกต่างกันไปตามกระดานประกาศและภูมิภาคแต่จะคงเดิมตลอดการเล่น.
 2115018280|        |rer_tutorial_rewards_title|RER Tutorial - เงินรางวัล (Rewards)
 2115018281|        |rer_tutorial_rewards_body|คุณเพิ่งเก็บ<font color="#CD7D03">หัวรางวัล (trophy)</font> ได้ สิ่งเหล่านี้ไม่มีประโยชน์อื่นใดนอกจากการนำไปขายแลกเป็นเงิน แต่การที่คุณเลือกขายให้ใครนั้นสำคัญ หากคุณต้องการกำไรสูงสุด<br /><br />หากคุณไม่ชอบเงินรางวัล (rewards) และต้องการเปลี่ยนแปลง คุณสามารถทำได้ในเมนู Rewards System.
-2115018282|        |option_rer_settlement_delay_multiplier|Delay multiplier when in settlements (1 = no change, 2 = twice longer)
-2115018283|        |option_rer_dynamic_creatures_size|Dynamic creatures size (scales RER creatures based on their level)
-2115018284|        |rer_unknown|Unknown
+2115018282|        |option_rer_settlement_delay_multiplier|<font size="15">Delay เมื่ออยู่ในชุมชน [1 = ไม่เปลี่ยนแปลง, 2 = นานขึ้นสองเท่า]</font>
+2115018283|        |option_rer_dynamic_creatures_size|ขนาดสิ่งมีชีวิตแบบ Dynamic <font size="15">(ปรับขนาดตาม level ของพวกมัน)</font>
+2115018284|        |rer_unknown|ไม่ทราบ
 2115018285|        |rer_bounty_start_popup|พบเห็นสิ่งมีชีวิตต่อไปนี้และมี<font color="#CD7D03">ค่าหัว</font>:<br /><br />เป้าหมายหลัก (Main target) จำเป็นสำหรับการขึ้นเงินรางวัล:<br />{{main_creature_listing}}<br /><br />เป้าหมายรองทางเลือก (Optional side targets):<br />{{side_creature_listing}}<br />ผู้ใดนำหัวของมันมาให้<font color="#CD7D03">นายหน้าค่าหัว (bounty master)</font> จะได้รับรางวัลมากมาย.
 2115018286|        |rer_mappin_bounty_master_title|นายหน้าค่าหัว
 2115018287|        |rer_mappin_bounty_master_description|ไปหานายหน้าค่าหัว เพื่อขายหัวรางวัลของคุณ และรับทราบเกี่ยวกับงานล่าค่าหัวใหม่ๆ <font color="#ffd33d">(คลิกเพื่อ fast-travel)</font>.
@@ -348,67 +348,67 @@
 2115018297|        |rer_bounty_finished_notification|งานล่าค่าหัวเสร็จสิ้น ได้รับ {{side_groups_killed}} คะแนนโบนัสจากกลุ่มเป้าหมายรองที่สังหาร ระดับนักล่า (bounty level) ของคุณตอนนี้คือ {{bounty_level}}.
 2115018298|        |option_rer_tutorial_started|First launch
 2115018299|        |rer_tutorial_started_title|RER Tutorial - First launch
-2115018300|        |rer_tutorial_started_body|ยินดีต้อนรับสู่ <font color="#CD7D03">Random Encounters Reworked</font>!<br />หน้าต่างแจ้งเตือนที่คล้ายกันนี้จะปรากฏขึ้นเมื่อใดก็ตามที่เกิดเหตุการณ์สำคัญที่เกี่ยวข้องกับม็อด เพื่ออธิบายสิ่งที่กำลังเกิดขึ้น ตอนนี้ Random Encounters Reworked จะยังไม่ทำงานอย่างชัดเจน และนี่เป็นเจตนา เพื่อให้ผู้ใช้ปรับตัวเข้ากับม็อดได้ และลดความยุ่งยาก ม็อดจะแนะนำส่วนต่างๆ ของตัวเองตลอดระยะเวลา 10 ชั่วโมง เมื่อถึงตอนนั้น ผู้ใช้ควรจะคุ้นเคยกับวิธีการทำงานของม็อดเป็นอย่างดี<br /><br />หากคุณต้องการการแจ้งเตือนเกี่ยวกับวิธีการทำงานของเหตุการณ์ (event) หรือคุณสมบัติ (feature) บางอย่าง คุณสามารถเปิดใช้งานคู่มือ (tutorial) ใหม่ได้ในเมนูม็อด (mod menu) เพื่อให้เมื่อคุณพบเจอเหตุการณ์หรือคุณสมบัตินั้นอีกครั้ง หน้าต่างแจ้งเตือนก็จะปรากฏขึ้นอีกครั้ง.
+2115018300|        |rer_tutorial_started_body|ยินดีต้อนรับสู่ <font color="#CD7D03">Random Encounters Reworked</font>!<br />หน้าต่างแจ้งเตือนที่คล้ายกันนี้จะปรากฏขึ้นเมื่อใดก็ตามที่เกิดเหตุการณ์สำคัญที่เกี่ยวข้องกับม็อด เพื่ออธิบายสิ่งที่กำลังเกิดขึ้น ตอนนี้ Random Encounters Reworked จะยังไม่ทำงานอย่างชัดเจน และนี่เป็นเจตนา เพื่อให้ผู้ใช้ปรับตัวเข้ากับม็อดได้ และลดความยุ่งยาก ม็อดจะแนะนำส่วนต่างๆ ของตัวเองตลอดระยะเวลา 10 ชั่วโมง เมื่อถึงตอนนั้น ผู้ใช้ควรจะคุ้นเคยกับวิธีการทำงานของม็อดเป็นอย่างดี<br /><br />หากคุณต้องการการแจ้งเตือนเกี่ยวกับวิธีการทำงานของเหตุการณ์ (event) บางอย่าง คุณสามารถเปิดใช้งานบทช่วยสอน (tutorial) ใหม่ได้ในเมนูม็อด เพื่อให้เมื่อคุณพบเจอเหตุการณ์นั้นอีกครั้ง หน้าต่างแจ้งเตือนก็จะปรากฏขึ้นอีกครั้ง.
 2115018301|        |rer_noticeboard_errand_0|ตามหาวิทเชอร์
 ; to translators:
 ; the end is not a typo but simply a random name formed with the letters of Aeltoth, my nickname,
 ; as a way for users to recognise the notices created by RER but without breaking immersion!
 ; and the spaces are so the name appears on the right on the notice.
-; ถึงผู้แปล: 
+; ถึงผู้แปล:
 ; ข้อความปิดท้ายไม่ใช่การพิมพ์ผิด แต่เป็นเพียงชื่อสุ่มที่สร้างขึ้นจากตัวอักษรของ Aeltoth ซึ่งเป็นชื่อเล่นของฉันเอง
-; เพื่อให้ผู้ใช้จดจำประกาศที่สร้างโดย RER ได้โดยไม่ทำลายอรรถรส! 
+; เพื่อให้ผู้ใช้จดจำประกาศที่สร้างโดย RER ได้โดยไม่ทำลายอรรถรส!
 ; และที่เว้นช่องว่างแบบนั้นเพื่อให้ชื่อปรากฏทางด้านขวาของประกาศ
 2115018302|        |rer_noticeboard_errand_0_text|ชาวบ้านทั้งหลาย!<br /><br />มีผี สัตว์ป่า หรือปีศาจชั่วร้ายและอันตรายบางอย่าง กำลังก่อปัญหาไม่หยุดหย่อนใกล้บ้านเรือนของเรา เราขอให้คำมั่นอย่างสัตย์จริงเกี่ยวกับรางวัลก้อนโต แก่ชายผู้หาญกล้าคนใดก็ตามที่สามารถสังหารมันได้<br /><br />                              - <font color="#7e6d57">A. Letoth</ font>
-2115018303|        |rer_dialog_preset_exit_do_nothing|Exit and leave settings untouched.
+2115018303|        |rer_dialog_preset_exit_do_nothing|ออกและไม่เปลี่ยนแปลงการตั้งค่า
 2115018304|        |rer_dialog_preset_enhanced_edition|[RER preset] Witcher 3 Enhanced Edition
 2115018305|        |rer_dialog_preset_vanilla|[RER preset] Vanilla/Default
-2115018306|        |preset_Mods_rer_name_rer_rewards_settings_rer_container_refill_settings|Container refill
-2115018307|        |panel_rer_container_refill_settings|Container refill
-2115018308|        |option_rer_container_refill_chance_multiplier|General loot, chance multiplier
-2115018309|        |option_rer_container_refill_only_empty_containers|Only empty containers
-2115018310|        |option_rer_container_refill_radius|Radius
-2115018311|        |option_rer_container_refill_number_of_containers|Number of containers per trigger
-2115018312|        |option_rer_noticeboard_errands|Noticeboard errands to start RER contracts
-2115018313|        |option_rer_additional_delay_per_player_level|<font color="#9e9e9e">         Day & Night:</font> Additional delay (in seconds) per player level
+2115018306|        |preset_Mods_rer_name_rer_rewards_settings_rer_container_refill_settings|การเติมของ Drop (Container Refill)
+2115018307|        |panel_rer_container_refill_settings|การเติมของ Drop (Container Refill)
+2115018308|        |option_rer_container_refill_chance_multiplier|ไอเท็มทั่วไป, โอกาส (เท่าตัว)
+2115018309|        |option_rer_container_refill_only_empty_containers|เฉพาะภาชนะ(หีบ,ถุง ฯลฯ) ที่ว่างเปล่า
+2115018310|        |option_rer_container_refill_radius|รัศมี
+2115018311|        |option_rer_container_refill_number_of_containers|จำนวนของ Drop ตามการกระตุ้น <font size="15">(Number of containers per trigger)</font>
+2115018312|        |option_rer_noticeboard_errands|งานประกาศบนกระดานเพื่อเริ่มสัญญาจ้าง RER
+2115018313|        |option_rer_additional_delay_per_player_level|<font color="#9e9e9e">กลางวันและกลางคืน:</font> delay เพิ่มเติม (วินาที) ตามระดับผู้เล่น
 2115018314|        |rer_noticeboard_errand_1|ตามหานักล่าผู้มีประสบการณ์
 2115018315|        |rer_noticeboard_errand_1_text|ผู้ใดอ่านออก จงอ่านข้อความนี้ และอ่านอย่างละเอียด เพื่อให้เป็นที่รู้กันโดยทั่ว ไม่ว่าจะไกลแค่ไหน หรืออย่างน้อยก็ให้รู้ทั่วทั้งหมู่บ้าน<br /><br />ข้าออกไปที่ทุ่ง เพื่อล่าอะไรบางอย่างมากิน ทันใดนั้นก็ได้ยินเสียงคำราม มีสัตว์ร้ายกินคน เจ้าไม่อาจเดินเข้าไปใกล้ความชั่วร้ายนั้น ในระยะสิบช่วงแขนแล้วหวังว่าจะรอดชีวิตออกมาได้เลย ด้วยเหตุนี้มันจึงทำให้เราออกล่าสัตว์และเก็บเกี่ยวพืชผลไม่ได้ หมายความว่าความอดอยากและความทุกข์ยากกำลังรอเราอยู่ หากไม่มีอะไรเปลี่ยนแปลง<br /><br />ข้าสังเกตเห็นร่องรอยประหลาดบางอย่าง และไม่รู้เลยว่ามันมาจากอะไร ทั้งๆ ที่ข้าออกล่าสัตว์มานับครั้งไม่ถ้วน พวกเจ้ารู้จักข้าดี ข้าไม่ใช่คนที่จะเอะอะโวยวาย แต่ข้าอดคิดไม่ได้ว่ามันเป็นลางร้าย และเราทุกคนควรระวัง<br /><br />หากเจ้ามีความกล้าหาญและฝีมือ จงสังหารอสูรกายนั้นให้พวกเรา และความพยายามของเจ้าจะได้รับรางวัลอย่างแน่นอน<br /><br />                              - <font color="#7e6d57">A. Letoth</ font>
-2115018316|        |option_rer_minimap_marker_bounty_master|Minimap markers <font color="#ffd33d">-</font> Bounty Master
-2115018317|        |option_rer_minimap_marker_bounties|Minimap markers <font color="#ffd33d">-</font> Bounties
-2115018318|        |option_rer_minimap_marker_generic_objectives|Minimap markers <font color="#ffd33d">-</font> Generic objectives
-2115018319|        |option_rer_ecosystem_frequency_mutliplier|<font color="#9e9e9e">         Day & Night:</font> Effects of kills on delays <font size="11">(+100%: faster, -100%: slower)</font>
-2115018320|        |rer_noticeboard_errand_2|ตามหานักล่าผู้มีประสบการณ์
+2115018316|        |option_rer_minimap_marker_bounty_master|Minimap markers <font color="#ffd33d">-</font> นายหน้าค่าหัว
+2115018317|        |option_rer_minimap_marker_bounties|Minimap markers <font color="#ffd33d">-</font> งานล่าค่าหัว
+2115018318|        |option_rer_minimap_marker_generic_objectives|Minimap markers <font color="#ffd33d">-</font> เป้าหมายทั่วไป
+2115018319|        |option_rer_ecosystem_frequency_mutliplier|<font color="#9e9e9e">กลางวันและกลางคืน:</font> ผลกระทบของการสังหารต่อ delay <br /><font size="15">(+100%: เร็วขึ้น, -100%: ช้าลง)</font>
+2115018320|        |rer_noticeboard_errand_2|ตามหานักล่ามากประสบการณ์
 2115018321|        |rer_noticeboard_errand_2_text|ถึงผู้ที่เกี่ยวข้อง:<br /><br />ขอประกาศให้ทราบโดยทั่วกันว่า ผู้ใดก็ตามที่สังหารอสูรกายที่สร้างรังใกล้ที่ดินของเรา และออกฆ่าทั้งผู้คนและสัตว์ จะได้รับรางวัลก้อนโต สังหารสัตว์ร้ายให้มากพอ แล้วเจ้าจะกลายเป็นที่รู้จักไปทั่วดินแดน และถุงเงินของเจ้าจะหนักอึ้งไปด้วยทอง<br /><br />                              - <font color="#7e6d57">A. Letoth</ font>
 ; Do not translate the "{{creature_name}}", this will be replaced with the actual
 ; creature name dynamically.
 ;
 ; Thank you!
 2115018322|        |rer_horde_invasion_strength_title|ความแข็งแกร่งของ {{creature_name}}
-2115018323|        |preset_Mods_rer_name_rer_rewards_settings_rer_killing_spree_custom_loot_settings|Killing spree loot
-2115018324|        |panel_rer_killing_spree_custom_loot_settings|Killing spree loot
-2115018325|        |option_rer_killing_spree_chance_increase_per_impact_point|Loot increase per ecosystem impact point
+2115018323|        |preset_Mods_rer_name_rer_rewards_settings_rer_killing_spree_custom_loot_settings|การสังหารต่อเนื่อง (Killing spree loot)
+2115018324|        |panel_rer_killing_spree_custom_loot_settings|การสังหารต่อเนื่อง (Killing spree loot)
+2115018325|        |option_rer_killing_spree_chance_increase_per_impact_point|ของ Drop เพิ่มขึ้นตามค่าผลกระทบระบบนิเวศ <br /><font size="15">(Loot increase per ecosystem impact point)</font>
 2115018326|        |option_rer_static_encounters_version|<font color="#ec6cb9">                             :</font> version
-2115018327|        |preset_value_rer_static_encounters_luc_olivier|Luc Olivier's
-2115018328|        |preset_value_rer_static_encounters_aeltoth|Aeltoth'
-2115018329|        |preset_Mods_rer_name_rer_contracts_settings|Contract system
-2115018330|        |panel_rer_contracts_settings|Contract system
-2115018331|        |option_rer_hours_before_new_contracts|Real life hours before new contracts
-2115018332|        |option_rer_easy_contracts_number|UNUSED
-2115018333|        |option_rer_hard_nearby_contracts_number|UNUSED
-2115018334|        |option_rer_hard_contracts_number|UNUSED
-2115018335|        |option_rer_hard_far_contracts_number|UNUSED
-2115018336|        |option_rer_allow_learn_new_locations|Allow RER to learn about new locations as you explore
-2115018337|        |option_rer_contracts_generation_seed|Contract generation seed
-2115018338|        |option_rer_species_chance_beasts|<font color="#ffd33d">Species chance:</font> Beasts
-2115018339|        |option_rer_species_chance_cursed|<font color="#ffd33d">                          :</font> Cursed Ones
-2115018340|        |option_rer_species_chance_draconids|<font color="#ffd33d">                          :</font> Draconids
-2115018341|        |option_rer_species_chance_elementa|<font color="#ffd33d">                          :</font> Elementa
-2115018342|        |option_rer_species_chance_hybrids|<font color="#ffd33d">                          :</font> Hybrids
-2115018343|        |option_rer_species_chance_insectoids|<font color="#ffd33d">                          :</font> Insectoids
-2115018344|        |option_rer_species_chance_necrophages|<font color="#ffd33d">                          :</font> Necrophages
-2115018345|        |option_rer_species_chance_ogroids|<font color="#ffd33d">                          :</font> Ogroids
-2115018346|        |option_rer_species_chance_relicts|<font color="#ffd33d">                          :</font> Relicts
-2115018347|        |option_rer_species_chance_specters|<font color="#ffd33d">                          :</font> Specters
-2115018348|        |option_rer_species_chance_vampires|<font color="#ffd33d">                          :</font> Vampires
+2115018327|        |preset_value_rer_static_encounters_luc_olivier|Luc Olivier
+2115018328|        |preset_value_rer_static_encounters_aeltoth|Aeltoth
+2115018329|        |preset_Mods_rer_name_rer_contracts_settings|ระบบสัญญาจ้าง
+2115018330|        |panel_rer_contracts_settings|ระบบสัญญาจ้าง
+2115018331|        |option_rer_hours_before_new_contracts|ชั่วโมงจริงก่อนมีสัญญาจ้างใหม่
+2115018332|        |option_rer_easy_contracts_number|ไม่ใช้
+2115018333|        |option_rer_hard_nearby_contracts_number|ไม่ใช้
+2115018334|        |option_rer_hard_contracts_number|ไม่ใช้
+2115018335|        |option_rer_hard_far_contracts_number|ไม่ใช้
+2115018336|        |option_rer_allow_learn_new_locations|ให้ RER เรียนรู้เกี่ยวกับสถานที่ใหม่ๆ เมื่อคุณออกสำรวจ
+2115018337|        |option_rer_contracts_generation_seed|Seed การสร้างสัญญาจ้าง (Contract generation seed)
+2115018338|        |option_rer_species_chance_beasts|<font color="#ffd33d">โอกาสสายพันธุ์:</font> Beasts
+2115018339|        |option_rer_species_chance_cursed|<font color="#ffd33d">                     :</font> Cursed Ones
+2115018340|        |option_rer_species_chance_draconids|<font color="#ffd33d">                     :</font> Draconids
+2115018341|        |option_rer_species_chance_elementa|<font color="#ffd33d">                     :</font> Elementa
+2115018342|        |option_rer_species_chance_hybrids|<font color="#ffd33d">                     :</font> Hybrids
+2115018343|        |option_rer_species_chance_insectoids|<font color="#ffd33d">                     :</font> Insectoids
+2115018344|        |option_rer_species_chance_necrophages|<font color="#ffd33d">                     :</font> Necrophages
+2115018345|        |option_rer_species_chance_ogroids|<font color="#ffd33d">                     :</font> Ogroids
+2115018346|        |option_rer_species_chance_relicts|<font color="#ffd33d">                     :</font> Relicts
+2115018347|        |option_rer_species_chance_specters|<font color="#ffd33d">                     :</font> Specters
+2115018348|        |option_rer_species_chance_vampires|<font color="#ffd33d">                     :</font> Vampires
 2115018349|        |rer_species_beasts|Beasts
 2115018350|        |rer_species_cursed|Cursed Ones
 2115018351|        |rer_species_draconids|Draconids
@@ -420,8 +420,8 @@
 2115018357|        |rer_species_relicts|Relicts
 2115018358|        |rer_species_specters|Specters
 2115018359|        |rer_species_vampires|Vampires
-2115018360|        |rer_distance_close|UNUSED
-2115018361|        |rer_distance_far|UNUSED
+2115018360|        |rer_distance_close|ไม่ใช้
+2115018361|        |rer_distance_far|ไม่ใช้
 ; this line is the one displayed when starting a contract, for example:
 ; - Close and easy Ogroids contract
 ; - Far and hard Draconids contract
@@ -463,100 +463,100 @@
 2115018388|        |rer_contract_finished|สัญญาจ้างสิ้นสุดลงแล้ว.
 2115018389|        |rer_reward_results|คุณได้แลกเปลี่ยนเหรียญ (token) {{reward_type}} เป็น: {{item_names}}.
 2115018390|        |rer_contract_started|สัญญาจ้างเริ่มต้นแล้ว ค้นหาเครื่องหมายบนแผนที่ของคุณ.
-2115018391|        |rer_huntsman_redux_bonus|+50% from Huntsman perk
+2115018391|        |rer_huntsman_redux_bonus|+50% จากทักษะ Huntsman
 2115018392|        |rer_complete_more_contracts|ล็อก: ทำสัญญาจ้างเพิ่มเติมเพื่อรับชื่อเสียง.
 2115018393|        |rer_select_difficulty|เลือกระดับความยาก (ปัจจุบัน: {{difficulty}})
-2115018394|        |rer_distance_nearby|UNUSED
-2115018395|        |option_rer_medium_contracts_number|Number of <font color="#d4a72c">medium</font> contracts
-2115018396|        |option_rer_medium_far_contracts_number|UNUSED
-2115018397|        |option_rer_contracts_reputation_system_enabled|<font color="#8250df">Reputation system:</font> enabled
-2115018398|        |option_rer_contracts_reputation_system_vanilla_contracts_requirement|<font color="#8250df">                                :</font> Required reputation for vanilla contracts
-2115018399|        |option_rer_contracts_reputation_system_reputation_rewards_increase|<font color="#8250df">                                :</font> Reward increase per reputation point
+2115018394|        |rer_distance_nearby|ไม่ใช้
+2115018395|        |option_rer_medium_contracts_number|จำนวนสัญญาจ้าง<font color="#d4a72c">ปานกลาง</font>
+2115018396|        |option_rer_medium_far_contracts_number|ไม่ใช้
+2115018397|        |option_rer_contracts_reputation_system_enabled|<font color="#8250df">ระบบชื่อเสียง:</font> เปิด
+2115018398|        |option_rer_contracts_reputation_system_vanilla_contracts_requirement|<font color="#8250df">                  :</font> ชื่อเสียงที่ต้องการสำหรับสัญญาจ้างต้นฉบับ(vanilla contracts)
+2115018399|        |option_rer_contracts_reputation_system_reputation_rewards_increase|<font color="#8250df">                  :</font> รางวัลเพิ่มขึ้นตามค่าชื่อเสียง
 2115018400|        |rer_mappin_bounty_side_target_title|เป้าหมายการล่ารอง
 2115018401|        |rer_mappin_bounty_side_target_description|พบเห็นกลุ่ม {{creature_type}} ในบริเวณนี้ สังหารพวกมันเพื่อเพิ่มเงินรางวัลของคุณ <font color="#ffd33d">(คลิกเพื่อ fast-travel)</font>.
 2115018402|        |rer_bounty_side_target_killed|สังหารเป้าหมายรองแล้ว รางวัลเพิ่มขึ้น.
-2115018403|        |option_rer_arachnophobia_mode|Arachnophobia friendly mode
-2115018404|        |rer_difficulty|Difficulty
+2115018403|        |option_rer_arachnophobia_mode|โหมดสำหรับผู้กลัวแมงมุม <font size="15">(Arachnophobia friendly mode)</font>
+2115018404|        |rer_difficulty|ความยาก
 2115018405|        |rer_bounty_start_popup_title|รายละเอียดการล่าค่าหัว
 2115018406|        |rer_trade_all_tokens|แลกเปลี่ยนเหรียญ (tokens) ทั้งหมด
-2115018407|        |option_rer_allow_select_difficulty|Allow selecting contracts difficulty
-2115018408|        |option_rer_contract_difficulty_scaling|Difficulty scaling
+2115018407|        |option_rer_allow_select_difficulty|เลือกระดับความยากของสัญญาจ้าง
+2115018408|        |option_rer_contract_difficulty_scaling|การปรับระดับความยาก
 2115018409|        |option_dlc_sharedutils|MOD: Random Encounters Reworked - Shared Utilities
-2115018410|        |option_rer_tutorial_bounty_level|Bounty level
+2115018410|        |option_rer_tutorial_bounty_level|ระดับนักล่า
 2115018411|        |rer_tutorial_bounty_level_title|RER Tutorial - ระดับนักล่า (Bounty level)
 2115018412|        |rer_tutorial_bounty_level_body|เมื่อคุณทำ<font color="#CD7D03">งานล่าค่าหัว (bounty)</font> เสร็จสิ้น <font color="#CD7D03">ระดับนักล่า (bounty level)</font> ของคุณอาจเพิ่มขึ้น แต่ละภูมิภาคมีระดับนักล่าของตัวเอง เมื่อใดที่คุณเพิ่มระดับนักล่า คุณจะได้รับไอเท็มชิ้นหนึ่ง ไอเท็มนี้จะเพิ่มความหายากตามระดับนักล่าของคุณ.
 2115018413|        |rer_tutorial_bounty_master_body|คุณได้พบ<font color="#CD7D03">นายหน้าค่าหัว (Bounty master)</font> ตัวละครที่สามารถให้งานล่าค่าหัว (bounties) แก่คุณได้ เขาเดินทางไปทั่วโลก ดังนั้นจึงพบเขาได้ในทุกภูมิภาค อย่างไรก็ตาม เขาก็เคลื่อนที่อยู่ภายในภูมิภาคเหล่านั้นด้วย หากต้องการหาเขา ให้มองบนแผนที่ของคุณและค้นหาเครื่องหมายตกใจ (! - exclamation mark) สีเหลืองล้อมรอบด้วยวงกลมสีขาว.
-2115018414|        |preset_Mods_rer_name_rer_rewards_settings_rer_rewards_general_settings|General rewards settings
-2115018415|        |panel_rer_rewards_general_settings|General rewards settings
-2115018416|        |option_rer_loot_global_chance_multiplier|<font color="#ffd33d">Global chance multiplier</font>
-2115018417|        |option_rer_loot_gear_ratio|<font color="#28a745">               Gear:</font> ratio
-2115018418|        |option_rer_loot_gear_rolls_amount|<font color="#28a745">                       :</font> number of rolls
-2115018419|        |option_rer_loot_gear_items_per_proc|<font color="#28a745">                       :</font> items per successful roll
-2115018420|        |option_rer_loot_gear_common_chance|<font color="#28a745">                       :</font> common rarity chance
-2115018421|        |option_rer_loot_gear_uncommon_chance|<font color="#28a745">                       :</font> uncommon rarity chance
-2115018422|        |option_rer_loot_gear_rare_chance|<font color="#28a745">                       :</font> rare rarity chance
-2115018423|        |option_rer_loot_gear_exotic_chance|<font color="#28a745">                       :</font> exotic rarity chance
-2115018424|        |option_rer_loot_materials_ratio|<font color="#b392f0">       Materials:</font> ratio
-2115018425|        |option_rer_loot_materials_rolls_amount|<font color="#b392f0">                       :</font> number of rolls
-2115018426|        |option_rer_loot_materials_items_per_proc|<font color="#b392f0">                       :</font> items per successful roll
-2115018427|        |option_rer_loot_materials_common_chance|<font color="#b392f0">                       :</font> common rarity chance
-2115018428|        |option_rer_loot_materials_uncommon_chance|<font color="#b392f0">                       :</font> uncommon rarity chance
-2115018429|        |option_rer_loot_materials_rare_chance|<font color="#b392f0">                       :</font> rare rarity chance
-2115018430|        |option_rer_loot_materials_exotic_chance|<font color="#b392f0">                       :</font> exotic rarity chance
-2115018431|        |option_rer_loot_consumables_ratio|<font color="#ffffff">Consumables:</font> ratio
-2115018432|        |option_rer_loot_consumables_rolls_amount|<font color="#ffffff">                       :</font> number of rolls
-2115018433|        |option_rer_loot_consumables_items_per_proc|<font color="#ffffff">                       :</font> items per successful roll
-2115018434|        |option_rer_loot_consumables_common_chance|<font color="#ffffff">                       :</font> common rarity chance
-2115018435|        |option_rer_loot_consumables_uncommon_chance|<font color="#ffffff">                       :</font> uncommon rarity chance
-2115018436|        |option_rer_loot_consumables_rare_chance|<font color="#ffffff">                       :</font> rare rarity chance
-2115018437|        |option_rer_loot_consumables_exotic_chance|<font color="#ffffff">                       :</font> exotic rarity chance
-2115018438|        |option_rer_loot_valuables_ratio|<font color="#ffd33d">       Valuables:</font> ratio
-2115018439|        |option_rer_loot_valuables_rolls_amount|<font color="#ffd33d">                       :</font> number of rolls
-2115018440|        |option_rer_loot_valuables_items_per_proc|<font color="#ffd33d">                       :</font> items per successful roll
-2115018441|        |option_rer_loot_valuables_common_chance|<font color="#ffd33d">                       :</font> common rarity chance
-2115018442|        |option_rer_loot_valuables_uncommon_chance|<font color="#ffd33d">                       :</font> uncommon rarity chance
-2115018443|        |option_rer_loot_valuables_rare_chance|<font color="#ffd33d">                       :</font> rare rarity chance
-2115018444|        |option_rer_loot_valuables_exotic_chance| <font color="#ffd33d">                       :</font> exotic rarity chance
-2115018445|        |rer_reputation_loss_message|ข่าวความล้มเหลวของคุณระหว่างทำสัญญาจ้างได้แพร่กระจายไปทั่วภูมิภาคชื่อเสียงของคุณลดลง {{number}} แต้ม.
+2115018414|        |preset_Mods_rer_name_rer_rewards_settings_rer_rewards_general_settings|การตั้งค่ารางวัลทั่วไป
+2115018415|        |panel_rer_rewards_general_settings|การตั้งค่ารางวัลทั่วไป
+2115018416|        |option_rer_loot_global_chance_multiplier|<font color="#ffd33d">ตัวคูณโอกาสโดยรวม (เท่าตัว)</font>
+2115018417|        |option_rer_loot_gear_ratio|<font color="#28a745">               อุปกรณ์:</font> อัตราส่วน
+2115018418|        |option_rer_loot_gear_rolls_amount|<font color="#28a745">                         :</font> จำนวนครั้งที่สุ่ม
+2115018419|        |option_rer_loot_gear_items_per_proc|<font color="#28a745">                         :</font> จำนวนไอเท็มต่อการสุ่มสำเร็จ
+2115018420|        |option_rer_loot_gear_common_chance|<font color="#28a745">                         :</font> โอกาสของหายาก common
+2115018421|        |option_rer_loot_gear_uncommon_chance|<font color="#28a745">                         :</font> โอกาสของหายาก uncommon
+2115018422|        |option_rer_loot_gear_rare_chance|<font color="#28a745">                         :</font> โอกาสของหายาก rare
+2115018423|        |option_rer_loot_gear_exotic_chance|<font color="#28a745">                         :</font> โอกาสของหายาก exotic
+2115018424|        |option_rer_loot_materials_ratio|<font color="#b392f0">       วัตถุดิบ:</font> อัตราส่วน
+2115018425|        |option_rer_loot_materials_rolls_amount|<font color="#b392f0">               :</font> จำนวนครั้งที่สุ่ม
+2115018426|        |option_rer_loot_materials_items_per_proc|<font color="#b392f0">               :</font> จำนวนไอเท็มต่อการสุ่มสำเร็จ
+2115018427|        |option_rer_loot_materials_common_chance|<font color="#b392f0">               :</font> โอกาสของหายาก common
+2115018428|        |option_rer_loot_materials_uncommon_chance|<font color="#b392f0">               :</font> โอกาสของหายาก uncommon
+2115018429|        |option_rer_loot_materials_rare_chance|<font color="#b392f0">               :</font> โอกาสของหายาก rare
+2115018430|        |option_rer_loot_materials_exotic_chance|<font color="#b392f0">               :</font> โอกาสของหายาก exotic
+2115018431|        |option_rer_loot_consumables_ratio|<font color="#ffffff">ของจิปาถะ:</font> อัตราส่วน
+2115018432|        |option_rer_loot_consumables_rolls_amount|<font color="#ffffff">                :</font> จำนวนครั้งที่สุ่ม
+2115018433|        |option_rer_loot_consumables_items_per_proc|<font color="#ffffff">                :</font> จำนวนไอเท็มต่อการสุ่มสำเร็จ
+2115018434|        |option_rer_loot_consumables_common_chance|<font color="#ffffff">                :</font> โอกาสของหายาก common
+2115018435|        |option_rer_loot_consumables_uncommon_chance|<font color="#ffffff">                :</font> โอกาสของหายาก uncommon
+2115018436|        |option_rer_loot_consumables_rare_chance|<font color="#ffffff">                :</font> โอกาสของหายาก rare
+2115018437|        |option_rer_loot_consumables_exotic_chance|<font color="#ffffff">                :</font> โอกาสของหายาก exotic
+2115018438|        |option_rer_loot_valuables_ratio|<font color="#ffd33d">       ของมีค่า:</font> อัตราส่วน
+2115018439|        |option_rer_loot_valuables_rolls_amount|<font color="#ffd33d">                        :</font> จำนวนครั้งที่สุ่ม
+2115018440|        |option_rer_loot_valuables_items_per_proc|<font color="#ffd33d">                        :</font> จำนวนไอเท็มต่อการสุ่มสำเร็จ
+2115018441|        |option_rer_loot_valuables_common_chance|<font color="#ffd33d">                        :</font> โอกาสของหายาก common
+2115018442|        |option_rer_loot_valuables_uncommon_chance|<font color="#ffd33d">                        :</font> โอกาสของหายาก uncommon
+2115018443|        |option_rer_loot_valuables_rare_chance|<font color="#ffd33d">                        :</font> โอกาสของหายาก rare
+2115018444|        |option_rer_loot_valuables_exotic_chance| <font color="#ffd33d">                        :</font> โอกาสของหายาก exotic
+2115018445|        |rer_reputation_loss_message|ข่าวความล้มเหลวของคุณระหว่างทำสัญญาจ้างได้แพร่กระจายไปทั่วภูมิภาค ชื่อเสียงของคุณลดลง {{number}} แต้ม.
 2115018446|        |rer_reputation_spent_message|คะแนนชื่อเสียง {{number}} แต้ม ถูกแลกเปลี่ยนเป็นของรางวัล.
-2115018447|        |option_rer_tutorial_bounty_master|Bounty master
+2115018447|        |option_rer_tutorial_bounty_master|นายหน้าค่าหัว
 2115018448|        |rer_tutorial_bounty_master_title|RER Tutorial - นายหน้าค่าหัว (Bounty master)
 2115018449|        |rer_reputation_spent_message_not_enough|คุณมีชื่อเสียงไม่เพียงพอที่จะใช้.
 2115018450|        |preset_value_rer_preset_selector|Preset selector
 2115018451|        |rer_bounty|ค่าหัว (Bounty)
 2115018452|        |rer_contract|สัญญาจ้าง (Contract)
 2115018453|        |rer_strayed_too_far_cancelled|คุณออกห่างจากพื้นที่มากเกินไป {{thing}} ปัจจุบันของคุณถูกยกเลิก.
-2115018454|        |option_rer_cancel_spawns_near_quest_markers|Cancel spawns when near quest markers
-2115018455|        |option_rer_oneliners_bounty_main_target|Oneliner / 3D Marker <font color="#ffd33d">-</font> Bounty targets
-2115018456|        |option_rer_oneliners_contract|Oneliner / 3D Marker <font color="#ffd33d">-</font> Contract targets
-2115018457|        |option_rer_oneliners_ambush|Oneliner / 3D Marker <font color="#ffd33d">-</font> Ambushes
-2115018458|        |option_rer_oneliners_hunting_ground|Oneliner / 3D Marker <font color="#ffd33d">-</font> Hunting grounds
-2115018459|        |option_rer_oneliners_hunt|Oneliner / 3D Marker <font color="#ffd33d">-</font> Hunts
-2115018460|        |option_rer_oneliners_bounty_master|Oneliner / 3D Marker <font color="#ffd33d">-</font> Bounty master
-2115018461|        |option_rer_contracts_reward_option|Type of rewards
-2115018462|        |preset_value_rer_crowns|Crowns <font size="11">scales with contracts Rewards Crowns settings</font>
-2115018463|        |preset_value_rer_tokens_of_gratitude|Tokens of gratitude
+2115018454|        |option_rer_cancel_spawns_near_quest_markers|ยกเลิกการปรากฏตัวเมื่ออยู่ใกล้เครื่องหมายภารกิจ
+2115018455|        |option_rer_oneliners_bounty_main_target|ข้อความสั้น / 3D Marker <font color="#ffd33d">-</font> เป้าหมายค่าหัว
+2115018456|        |option_rer_oneliners_contract|ข้อความสั้น / 3D Marker <font color="#ffd33d">-</font> เป้าหมายสัญญาจ้าง
+2115018457|        |option_rer_oneliners_ambush|ข้อความสั้น / 3D Marker <font color="#ffd33d">-</font> การซุ่มโจมตี
+2115018458|        |option_rer_oneliners_hunting_ground|ข้อความสั้น / 3D Marker <font color="#ffd33d">-</font> พื้นที่ออกล่า
+2115018459|        |option_rer_oneliners_hunt|ข้อความสั้น / 3D Marker <font color="#ffd33d">-</font> การออกล่า
+2115018460|        |option_rer_oneliners_bounty_master|ข้อความสั้น / 3D Marker <font color="#ffd33d">-</font> นายหน้าค่าหัว
+2115018461|        |option_rer_contracts_reward_option|ประเภทของรางวัล
+2115018462|        |preset_value_rer_crowns|Crowns <font size="11">ปรับตามการตั้งค่าเงินรางวัลของสัญญาจ้าง</font>
+2115018463|        |preset_value_rer_tokens_of_gratitude|เหรียญแห่งคำขอบคุณ
 2115018464|        |rer_tracks_examine_hud_message|ร่องรอยนี้ดูเหมือนจะมาจาก {{species}}.
 2115018465|        |rer_tracks_examine_hud_message_unknown|ร่องรอยนี้ดูเหมือนจะมาจากสิ่งมีชีวิตที่ไม่รู้จัก.
 2115018466|        |option_rer_contract_death_reputation_loss_buffer|Active death counter <font color="#d73a49">(DO NOT EDIT)</font>
-2115018467|        |option_rer_contract_death_reputation_loss_amount|<font color="#8250df">                                :</font> Reputation loss on death
-2115018468|        |option_rer_level_scaling|Mod & level scaling
-2115018469|        |preset_value_rer_level_scaling_automatic|Detect automatically
-2115018470|        |preset_value_rer_level_scaling_use_levels|Use player levels
-2115018471|        |preset_value_rer_level_scaling_use_playtime|Use play time (3 hours = 1 level)
+2115018467|        |option_rer_contract_death_reputation_loss_amount|<font color="#8250df">                                :</font> ชื่อเสียงลดลงเมื่อตาย
+2115018468|        |option_rer_level_scaling|การปรับระดับตามม็อดและผู้เล่น
+2115018469|        |preset_value_rer_level_scaling_automatic|ตรวจจับอัตโนมัติ
+2115018470|        |preset_value_rer_level_scaling_use_levels|ใช้ระดับของผู้เล่น
+2115018471|        |preset_value_rer_level_scaling_use_playtime|ใช้เวลาเล่น [3 ชั่วโมง = 1 ระดับ]
 2115018472|        |rer_level_scaling_no_level_detected|ดูเหมือนว่าคุณกำลังใช้ม็อด "No Level" หรือม็อดที่ปรับระดับของคุณแบบไดนามิก (level dynamically) การตั้งค่า <font color="#CD7D03">Mod & Level scaling</font> จาก <font color="#CD7D03">Random Encounters Reworked</font> ได้ถูกตั้งค่าให้ใช้เวลาเล่นของคุณแทนระดับผู้เล่น (player level) แล้ว<br /><br />หากคุณไม่ชอบการเปลี่ยนแปลงนี้ หรือหากคุณคิดว่ามีข้อผิดพลาด (error) คุณสามารถเปลี่ยนได้ด้วยตนเอง ในเมนู Mods ของ <font color="#CD7D03">Random Encounters Reworked</font>.
-2115018473|        |preset_value_rer_contract_scaling_mixed|Mixed
+2115018473|        |preset_value_rer_contract_scaling_mixed|ผสม
 2115018474|        |preset_value_rer_contract_scaling_damage_modifiers|+Damage, +HP, +HP Regen
-2115018475|        |preset_value_rer_contract_scaling_enemy_count|Enemy count
-2115018476|        |option_rer_contract_targets_spread|Targets spread behaviour
-2115018477|        |preset_value_rer_contract_targets_spread_spread|Spread over multiple locations
-2115018478|        |preset_value_rer_contract_targets_spread_grouped|Grouped on same location
-2115018479|        |option_rer_contracts_target_max_distance|Target's max distance from noticeboard
-2115018480|        |option_rer_contracts_target_area_radius|Target area's radius
+2115018475|        |preset_value_rer_contract_scaling_enemy_count|จำนวนศัตรู
+2115018476|        |option_rer_contract_targets_spread|ลักษณะการกระจายตัวของเป้าหมาย
+2115018477|        |preset_value_rer_contract_targets_spread_spread|กระจายตัวในหลายตำแหน่ง
+2115018478|        |preset_value_rer_contract_targets_spread_grouped|รวมกลุ่มในตำแหน่งเดียวกัน
+2115018479|        |option_rer_contracts_target_max_distance|ระยะห่างสูงสุดของเป้าหมายจากกระดานประกาศ
+2115018480|        |option_rer_contracts_target_area_radius|รัศมีพื้นที่เป้าหมาย
 2115018481|        |rer_contract_crowns_reward|เงินรางวัล (rewards crowns)
-2115018482|        |option_rer_allow_back_to_camp|Go back to camp after completion
+2115018482|        |option_rer_allow_back_to_camp|กลับค่ายหลังเสร็จสิ้น
 2115018483|        |rer_confirm_back_to_camp_title|กลับค่าย
-2115018484|        |rer_confirm_back_to_camp_description|คุณต้องการเก็บของรางวัลที่อยู่ใกล้เคียงโดยอัตโนมัติ (auto-collect) และกลับไปยังกระดานประกาศหรือไม่?
+2115018484|        |rer_confirm_back_to_camp_description|คุณต้องการเก็บของที่อยู่ใกล้เคียงโดยอัตโนมัติ (auto-collect) และกลับไปยังกระดานประกาศหรือไม่?
 2115018485|        |rer_and|และ
 2115018486|        |rer_surround_ecosystem_popup_title|ระบบนิเวศโดยรอบ<br />(Surrounding ecosystem)
 2115018487|        |rer_surround_ecosystem_popup_body|บริเวณนี้และพื้นที่ใกล้เคียงตอนนี้เต็มไปด้วย {{teeming_creature_names}} ความเป็นไปได้ที่จะพบเจอ {{less_likely_creature_names}} ตอนนี้น้อยลงแล้ว<br /><br />{{ecosystem_advice}}<br /><br />{{ecosystem_delay_multiplier}}
