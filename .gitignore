@@ -9,7 +9,7 @@ __pycache__/
 *$py.class
 
 # Config files (if user-specific)
-# config.json
+installer_app/config.json
 
 # Build artifacts
 dist/
