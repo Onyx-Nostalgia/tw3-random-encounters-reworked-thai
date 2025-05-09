@@ -14,4 +14,3 @@ installer_app/config.json
 # Build artifacts
 dist/
 build/
-*.spec
