@@ -44,52 +44,55 @@ def backup_full_directory_to_zip(source_dir_path, backup_zip_file_path, logger):
         logger.error(f"❌ Error during full directory backup of '{source_dir_path}' to '{backup_zip_file_path}': {e}")
         return False
 
-def backup_overwritten_files_to_zip(source_dir_path, target_dir_path, backup_zip_file_path, logger):
-    """
-    Backs up files from target_dir_path that would be overwritten by files from source_dir_path
-    into a zip file at backup_zip_file_path.
-    The backup preserves the relative path structure within the zip file.
-    If the zip file already exists, it will be overwritten.
-    """
-    if not os.path.isdir(source_dir_path):
-        logger.warning(f"🛠️ Source directory for backup check does not exist: {source_dir_path}")
-        return
-    if not os.path.isdir(target_dir_path):
-        logger.info(f"🛠️ Target directory '{target_dir_path}' does not exist. No files to backup from it.")
-        return
+# This function is currently not used due to the change in backup/uninstall logic.
+# It backed up only files that would be overwritten by an incoming mod.
+# The current logic uses a one-time full backup of the original secondary mod.
+# def backup_overwritten_files_to_zip(source_dir_path, target_dir_path, backup_zip_file_path, logger):
+#     """
+#     Backs up files from target_dir_path that would be overwritten by files from source_dir_path
+#     into a zip file at backup_zip_file_path.
+#     The backup preserves the relative path structure within the zip file.
+#     If the zip file already exists, it will be overwritten.
+#     """
+#     if not os.path.isdir(source_dir_path):
+#         logger.warning(f"🛠️ Source directory for backup check does not exist: {source_dir_path}")
+#         return
+#     if not os.path.isdir(target_dir_path):
+#         logger.info(f"🛠️ Target directory '{target_dir_path}' does not exist. No files to backup from it.")
+#         return
 
-    files_to_backup = []
-    for root, _, files in os.walk(source_dir_path):
-        for filename in files:
-            relative_path_from_source_root = os.path.relpath(os.path.join(root, filename), source_dir_path)
-            target_file_full_path = os.path.join(target_dir_path, relative_path_from_source_root)
-            if os.path.isfile(target_file_full_path):
-                files_to_backup.append((target_file_full_path, relative_path_from_source_root))
+#     files_to_backup = []
+#     for root, _, files in os.walk(source_dir_path):
+#         for filename in files:
+#             relative_path_from_source_root = os.path.relpath(os.path.join(root, filename), source_dir_path)
+#             target_file_full_path = os.path.join(target_dir_path, relative_path_from_source_root)
+#             if os.path.isfile(target_file_full_path):
+#                 files_to_backup.append((target_file_full_path, relative_path_from_source_root))
 
-    if not files_to_backup:
-        logger.info(f"🛠️ No files in '{target_dir_path}' required backup based on '{source_dir_path}'.")
-        if os.path.exists(backup_zip_file_path):
-            logger.info(f"🛠️ Removing obsolete backup zip: '{backup_zip_file_path}' as no files need backup this time.")
-            os.remove(backup_zip_file_path)
-        return
+#     if not files_to_backup:
+#         logger.info(f"🛠️ No files in '{target_dir_path}' required backup based on '{source_dir_path}'.")
+#         if os.path.exists(backup_zip_file_path):
+#             logger.info(f"🛠️ Removing obsolete backup zip: '{backup_zip_file_path}' as no files need backup this time.")
+#             os.remove(backup_zip_file_path)
+#         return
 
-    try:
-        backup_zip_dir = os.path.dirname(backup_zip_file_path)
-        if backup_zip_dir:
-            os.makedirs(backup_zip_dir, exist_ok=True)
+#     try:
+#         backup_zip_dir = os.path.dirname(backup_zip_file_path)
+#         if backup_zip_dir:
+#             os.makedirs(backup_zip_dir, exist_ok=True)
         
-        if os.path.exists(backup_zip_file_path):
-             logger.info(f"🛠️ Existing backup zip file found at '{backup_zip_file_path}'. Removing it before creating a new backup.")
-             os.remove(backup_zip_file_path)
+#         if os.path.exists(backup_zip_file_path):
+#              logger.info(f"🛠️ Existing backup zip file found at '{backup_zip_file_path}'. Removing it before creating a new backup.")
+#              os.remove(backup_zip_file_path)
 
-        logger.info(f"🛠️ Creating zip backup for overwritten files. Target zip: '{backup_zip_file_path}'.")
-        with zipfile.ZipFile(backup_zip_file_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
-            for file_to_backup_path, arcname in files_to_backup:
-                zipf.write(file_to_backup_path, arcname)
-                logger.info(f"  🛡️ Added to zip backup: '{file_to_backup_path}' as '{arcname}'")
-        logger.info(f"✅ Backup of overwritten files completed. {len(files_to_backup)} file(s) backed up to '{backup_zip_file_path}'.")
-    except Exception as e:
-        logger.error(f"❌ Error creating zip backup for overwritten files at '{backup_zip_file_path}': {e}")
+#         logger.info(f"🛠️ Creating zip backup for overwritten files. Target zip: '{backup_zip_file_path}'.")
+#         with zipfile.ZipFile(backup_zip_file_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
+#             for file_to_backup_path, arcname in files_to_backup:
+#                 zipf.write(file_to_backup_path, arcname)
+#                 logger.info(f"  🛡️ Added to zip backup: '{file_to_backup_path}' as '{arcname}'")
+#         logger.info(f"✅ Backup of overwritten files completed. {len(files_to_backup)} file(s) backed up to '{backup_zip_file_path}'.")
+#     except Exception as e:
+#         logger.error(f"❌ Error creating zip backup for overwritten files at '{backup_zip_file_path}': {e}")
 
 def restore_from_zip(backup_zip_path, extract_to_dir, logger, pre_cleanup_path=None):
     """

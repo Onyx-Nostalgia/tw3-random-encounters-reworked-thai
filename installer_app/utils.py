@@ -1,10 +1,52 @@
 import os
 import tkinter
+import sys # Needed for resource_path
 
 import constants  # Import constants directly, assuming it's in the same directory or Python path
 
 if os.name == "nt":
     import winsound
+
+
+_PROJECT_ROOT_DEV_UTILS = None # Cache for development project root
+
+def get_project_root_or_bundle_dir_utils():
+    """
+    Returns the project root directory when running from source,
+    or the bundle directory (_MEIPASS or executable's dir) when bundled.
+    Assumes this file (utils.py) is in 'installer_app/' (or similar top-level app folder).
+    """
+    global _PROJECT_ROOT_DEV_UTILS
+    if hasattr(sys, "_MEIPASS"):  # PyInstaller onefile bundle
+        return sys._MEIPASS
+    if getattr(sys, "frozen", False):  # PyInstaller onedir bundle
+        return os.path.dirname(sys.executable)
+    
+    # Development mode
+    if _PROJECT_ROOT_DEV_UTILS is None:
+        # __file__ here is utils.py. If utils.py is in 'installer_app/',
+        # project root is the parent directory of 'installer_app/'.
+        _PROJECT_ROOT_DEV_UTILS = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    return _PROJECT_ROOT_DEV_UTILS
+
+def resource_path(path_relative_to_project_root):
+    """ Get absolute path to resource, works for dev and for PyInstaller. """
+    base_dir = get_project_root_or_bundle_dir_utils()
+    return os.path.join(base_dir, path_relative_to_project_root)
+
+def validate_game_path(path_to_check):
+    """
+    Basic validation: check for 'mods', 'bin', and 'dlc' subfolders.
+    This function is now in utils.py to be accessible early in app initialization.
+    """
+    if not path_to_check or not os.path.isdir(path_to_check):
+        return False
+
+    has_folders = ["mods", "bin", "dlc"]
+    for folder in has_folders:
+        if not os.path.isdir(os.path.join(path_to_check, folder)):
+            return False
+    return True  # All required folders exist
 
 def play_sound(sound_identifier: str, logger, block=False, is_system_sound=False):
     """
@@ -27,10 +69,8 @@ def play_sound(sound_identifier: str, logger, block=False, is_system_sound=False
         else:
             # Play a custom sound file from 'assets/sounds/'
             try:
-                # Determine the base path (directory of the current script, utils.py)
-                script_dir = os.path.dirname(os.path.abspath(__file__))
-                # Construct the full path to the sound file
-                sound_file_path = os.path.join(script_dir, "assets", "sounds", sound_identifier)
+                # Path relative to project root: "installer_app/assets/sounds/sound.wav"
+                sound_file_path = resource_path(os.path.join("installer_app", "assets", "sounds", sound_identifier))
 
                 if os.path.exists(sound_file_path):
                     flags = winsound.SND_FILENAME

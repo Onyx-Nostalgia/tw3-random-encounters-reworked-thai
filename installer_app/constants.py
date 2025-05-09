@@ -14,8 +14,12 @@ MONOKAI_ELEMENT_BORDER = (
     "#4A464D"  # Border color for UI elements, slightly lighter than element_bg
 )
 
-MONOKAI_SUCCESS_GREEN = "#78DCE8"  # Color for success messages
-MONOKAI_ERROR_PINK = "#FF6188"  # Color for error messages
+MONOKAI_SUCCESS_COLOR = "#78DCE8"  # Color for success messages
+MONOKAI_ERROR_COLOR = "#FF6188"  # Color for error messages
 
 CONFIG_FILE = "config.json"
-APP_VERSION = "v1.0.0"  # Application version
+APP_VERSION = "v1.1.0"  # Application version
+DEFAULT_FONT_FAMILY = "Segoe UI" # Default font family for the application
+
+ORIGINAL_SECONDARY_MOD_BACKUP_FILENAME = "modRandomEncountersReworked_ORIGINAL_BACKUP.zip"
+DEFAULT_CONFIG_FILE = "config.default.json" # Name for the default config file

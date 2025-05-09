@@ -328,7 +328,7 @@
 2115018277|        |rer_tutorial_ecosystem_body|การสังหารสิ่งมีชีวิตของคุณเมื่อเร็วๆ นี้ ได้เปลี่ยน<font color="#CD7D03">ระบบนิเวศ (ecosystem)</font> โดยรอบทางอ้อม RER จำลองวงจรห่วงโซ่อาหาร ซึ่งจะเปลี่ยนแปลงสิ่งมีชีวิตที่คุณพบเจอ เมื่อใดที่คุณสังหารสิ่งมีชีวิต ระบบนิเวศก็จะเปลี่ยนไป และหากคุณสังหารต่อไป สัตว์สายพันธุ์ใหม่ก็อาจปรากฏขึ้น และบางตัวอาจย้ายถิ่นฐานไปยังภูมิภาคอื่นๆ ได้ คุณสามารถตรวจสอบระบบนิเวศได้โดยใช้ปุ่มคีย์ลัด Ecosystem Analysis ซึ่งจะบอกข้อมูลที่เป็นประโยชน์เกี่ยวกับสิ่งมีชีวิตและถิ่นที่อยู่ของพวกมัน ปุ่มคีย์ลัด (keybind) นี้ไม่ได้ตั้งค่าไว้เป็นค่าเริ่มต้น ดังนั้นหากคุณต้องการใช้ โปรดดูคู่มือการติดตั้งแบบละเอียด<br /><br />หากคุณไม่ชอบคุณสมบัตินี้ คุณสามารถเปลี่ยนผลกระทบหรือปิดใช้งานทั้งหมดได้ในเมนู Ecosystem.
 2115018278|        |rer_tutorial_noticeboard_event_title|RER Tutorial - กระดานประกาศว่าจ้าง (Noticeboard event)
 2115018279|        |rer_tutorial_noticeboard_event_body|คุณได้เลือก<font color="#CD7D03">ใบประกาศว่าจ้าง (contract notice)</font> จากม็อด Random Encounters Reworked เมื่อคุณปิดหน้าต่างนี้ คุณจะเห็นตัวเลือกบทสนทนาเพื่อเลือกความยากของสัญญาจ้าง รวมถึงข้อมูลเกี่ยวกับกระดานประกาศ (noticeboard) รางวัลเหล่านี้จะแตกต่างกันไปตามกระดานประกาศและภูมิภาคแต่จะคงเดิมตลอดการเล่น.
-2115018280|        |rer_tutorial_rewards_title|RER Tutorial - เงินรางวัล (Rewards)
+2115018280|        |rer_tutorial_rewards_title|RER Tutorial - รางวัล (Rewards)
 2115018281|        |rer_tutorial_rewards_body|คุณเพิ่งเก็บ<font color="#CD7D03">หัวรางวัล (trophy)</font> ได้ สิ่งเหล่านี้ไม่มีประโยชน์อื่นใดนอกจากการนำไปขายแลกเป็นเงิน แต่การที่คุณเลือกขายให้ใครนั้นสำคัญ หากคุณต้องการกำไรสูงสุด<br /><br />หากคุณไม่ชอบเงินรางวัล (rewards) และต้องการเปลี่ยนแปลง คุณสามารถทำได้ในเมนู Rewards System.
 2115018282|        |option_rer_settlement_delay_multiplier|Delay multiplier when in settlements (1 = no change, 2 = twice longer)
 2115018283|        |option_rer_dynamic_creatures_size|Dynamic creatures size (scales RER creatures based on their level)
@@ -553,7 +553,7 @@
 2115018478|        |preset_value_rer_contract_targets_spread_grouped|Grouped on same location
 2115018479|        |option_rer_contracts_target_max_distance|Target's max distance from noticeboard
 2115018480|        |option_rer_contracts_target_area_radius|Target area's radius
-2115018481|        |rer_contract_crowns_reward|เงินรางวัล (rewards crowns)
+2115018481|        |rer_contract_crowns_reward|เงินรางวัล
 2115018482|        |option_rer_allow_back_to_camp|Go back to camp after completion
 2115018483|        |rer_confirm_back_to_camp_title|กลับค่าย
 2115018484|        |rer_confirm_back_to_camp_description|คุณต้องการเก็บของรางวัลที่อยู่ใกล้เคียงโดยอัตโนมัติ (auto-collect) และกลับไปยังกระดานประกาศหรือไม่?
