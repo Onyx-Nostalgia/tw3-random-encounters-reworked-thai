@@ -56,7 +56,7 @@ Original Mod: [Random Encounters Reworked](https://www.nexusmods.com/witcher3/mo
 ## ⚙️ Installation
 
 You can choose between two installation methods:
-📥 Download all necessary files from the latest release here.
+📥 Download all necessary files from the latest release [HERE](https://github.com/Onyx-Nostalgia/tw3-random-encounters-reworked-thai/releases/latest).
 
 ### 💻 Mod Installer (Recommended 👍)
 
