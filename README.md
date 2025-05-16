@@ -30,6 +30,8 @@
 
 💬 The Witcher 3 mod Random Encounters Reworked - Thai version.
 
+**DOWNLOAD THIS MOD ON [NEXUS MODS](https://www.nexusmods.com/witcher3/mods/10840) OR [GITHUB RELEASES](https://github.com/Onyx-Nostalgia/tw3-random-encounters-reworked-thai/releases/latest)**
+
 This mod provides Thai localization for the [Random Encounters Reworked](https://www.nexusmods.com/witcher3/mods/5018) mod, allowing Thai players to fully enjoy the enhanced random encounters experience!
 
 Original Mod: [Random Encounters Reworked](https://www.nexusmods.com/witcher3/mods/5018) by Aelto ([GitHub](https://github.com/Aelto/tw3-random-encounters-reworked))

@@ -28,6 +28,9 @@
 -----------
 
 💬 The Witcher 3 mod random encounters reworked เวอร์ชันภาษาไทย
+
+**DOWNLOAD ได้ที่ [NEXUS MODS](https://www.nexusmods.com/witcher3/mods/10840) หรือ [GITHUB RELEASES](https://github.com/Onyx-Nostalgia/tw3-random-encounters-reworked-thai/releases/latest)**
+
 ม็อดนี้จัดทำคำแปลภาษาไทยสำหรับม็อด [Random Encounters Reworked](https://www.nexusmods.com/witcher3/mods/5018) โดยเฉพาะ เพื่อให้ผู้เล่นชาวไทยได้สัมผัสประสบการณ์การเผชิญหน้าแบบสุ่มที่ปรับปรุงใหม่ได้อย่างเต็มอรรถรส!
 
 Original Mod: [Random Encounters Reworked](https://www.nexusmods.com/witcher3/mods/5018) by Aelto ([GitHub](https://github.com/Aelto/tw3-random-encounters-reworked))
